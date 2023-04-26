@@ -10,6 +10,24 @@ Quartz is designed to be extremely configurable. You can find the bulk of the co
 
 The majority of configuration can be found under `data/config.yaml`. An annotated example configuration is shown below.
 
+``` java {title="findKthLargest.java"}
+public static int findKthLargestLib (int[] nums, int k) {
+	PriorityQueue<Integer> pq = new PriorityQueue<>();
+	int index = 0;
+	while(k-- > 0) {
+		pq.add(nums[index++]);
+	}
+	for(;index < nums.length;index++) {
+		if(nums[index] >= pq.peek()) {
+			pq.remove();
+			pq.add(nums[index]);
+		}
+	}
+	return pq.peek();
+}
+
+```
+
 ```yaml {title="data/config.yaml"}
 # The name to display in the footer
 name: Jacky Zhao
@@ -231,3 +249,5 @@ defaultContentLanguage = 'ar'
     title = 'مدونتي'
     weight = 1
 ```
+
+

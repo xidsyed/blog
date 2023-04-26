@@ -1,12 +1,13 @@
 // Add your own CSS here!
 
 :root {
+  color-scheme: light;
   --light: #faf8f8;
   --dark: #3c3c3c; // headings on light mode
   --secondary: #558e93;
   --tertiary: #84a59d;
   --visited: #afbfc9;
-  --primary: #f28482;
+  --primary: #000000;
   --gray: #4e4e4e;
   --lightgray: #f0f0f0;
   --outlinegray: #dadada;
@@ -15,14 +16,15 @@
 }
 
 [saved-theme="dark"] {
+  color-scheme: dark;
   --light: #111111 !important; // dark mode background
   --dark: #9b9b9b !important; // headings on dark mode
-  --secondary: #558e93 !important;
+  --secondary: #6e8f92 !important;
   --visited: #4a575e !important;
   --tertiary: #84a59d !important;
   --primary: #ffffff !important;
   --gray: #d4d4d4 !important;
-  --lightgray: #232323 !important;
+  --lightgray: #202020 !important;
   --outlinegray: #343434 !important;
   --highlighted: #574010;
 }
