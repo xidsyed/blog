@@ -9,8 +9,8 @@ enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-enableRecentNotes: false
-enableGitHubEdit: true
+enableRecentNotes: true
+enableGitHubEdit: false
 enableMermaid: true
 GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
 search:
@@ -21,9 +21,9 @@ description:
   Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
   Wikilink support, backlinks, local graph, tags, and link previews.
 page_title:
-  "🪴 Quartz 3.3"
+  "👾 Code Quest and Clarity"
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/syedintator
   - link_name: GitHub
-    link: https://github.com/jackyzha0
+    link: https://github.com/xidsyed

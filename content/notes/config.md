@@ -1,11 +1,11 @@
 ---
-title: "Configuration"
-tags:
-- setup
+title: Configuration
+tags: [setup]
 weight: 0
 ---
 
 ## Configuration
+
 Quartz is designed to be extremely configurable. You can find the bulk of the configuration scattered throughout the repository depending on how in-depth you'd like to get.
 
 The majority of configuration can be found under `data/config.yaml`. An annotated example configuration is shown below.
@@ -86,27 +86,29 @@ links:
 ```
 
 ### Code Block Titles
+
 To add code block titles with Quartz:
 
-1. Ensure that code block titles are enabled in Quartz's configuration:
+1.  Ensure that code block titles are enabled in Quartz's configuration:
 
     ```yaml {title="data/config.yaml", linenos=false}
     enableCodeBlockTitle: true
     ```
 
-2. Add the `title` attribute to the desired [code block
-   fence](https://gohugo.io/content-management/syntax-highlighting/#highlighting-in-code-fences):
+2.  Add the `title` attribute to the desired [code block
+    fence](https://gohugo.io/content-management/syntax-highlighting/#highlighting-in-code-fences):
 
-      ```markdown {linenos=false}
-       ```yaml {title="data/config.yaml"}
-       enableCodeBlockTitle: true  # example from step 1
-       ```
-      ```
+    ````markdown {linenos=false}
+     ```yaml {title="data/config.yaml"}
+     enableCodeBlockTitle: true  # example from step 1
+     ```
+    ````
 
 **Note** that if `{title=<my-title>}` is included, and code block titles are not
 enabled, no errors will occur, and the title attribute will be ignored.
 
 ### HTML Favicons
+
 If you would like to customize the favicons of your Quartz-based website, you 
 can add them to the `data/config.yaml` file. The **default** without any set 
 `favicon` key is:
@@ -146,6 +148,7 @@ information about the current and past standards of favicons, you can read
 attribute, are relative to the `static/` directory.
 
 ### Graph View
+
 To customize the Interactive Graph view, you can poke around `data/graphConfig.yaml`.
 
 ```yaml {title="data/graphConfig.yaml"}
@@ -196,11 +199,12 @@ paths:
   - /moc: "#4388cc"
 ```
 
-
 ## Styling
+
 Want to go even more in-depth? You can add custom CSS styling and change existing colours through editing `assets/styles/custom.scss`. If you'd like to target specific parts of the site, you can add ids and classes to the HTML partials in `/layouts/partials`. 
 
 ### Partials
+
 Partials are what dictate what gets rendered to the page. Want to change how pages are styled and structured? You can edit the appropriate layout in `/layouts`.
 
 For example, the structure of the home page can be edited through `/layouts/index.html`. To customize the footer, you can edit `/layouts/partials/footer.html`
@@ -210,6 +214,7 @@ More info about partials on [Hugo's website.](https://gohugo.io/templates/partia
 Still having problems? Checkout our [FAQ and Troubleshooting guide](notes/troubleshooting.md).
 
 ## Language Support
+
 [CJK + Latex Support (测试)](notes/CJK%20+%20Latex%20Support%20(测试).md) comes out of the box with Quartz.
 
 Want to support languages that read from right-to-left (like Arabic)? Hugo (and by proxy, Quartz) supports this natively.
