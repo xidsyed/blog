@@ -1,4 +1,4 @@
-baseURL = " https://xidsyed.github.io/blog/"
+baseURL = "https://xidsyed.github.io/blog/"
 languageCode = "en-us"
 relativeURLs = false
 disablePathToLower = true
