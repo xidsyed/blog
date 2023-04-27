@@ -30,4 +30,106 @@
 }
 
 
+#banner {
+  margin: 3em auto;
+  filter: invert(10%);
+  opacity: 0.85;
+  max-height: 350px;
+  width: 100%;
+  @media screen and (max-width: 1200px) {
+    max-height:300px;
+  }
 
+  [saved-theme="dark"] & {
+    filter: invert(85%);
+  }
+}
+
+#index {
+  & > .bio {
+    display: flex;
+    gap: 1.5em;
+    z-index: 1;
+    position: relative;
+
+    @media screen and (max-width: 1440px) {
+      flex-direction: column-reverse !important;
+      gap: 4em;
+    }
+
+    & > .writing-sidebar {
+      flex: 0 0 30%;
+
+      & > div {
+        margin-bottom: 3em;
+      }
+
+      & ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 0;
+        z-index: 0;
+      }
+
+      & > div > a {
+        opacity: 0.6;
+      }
+
+      & h2 {
+        font-size: 1.5rem;
+        margin: 0.75em 0;
+      }
+      
+      & .section {
+        margin-bottom: 1.0em;
+      }
+
+      & h3 {
+        margin: 0;
+      }
+
+      & .meta {
+        margin: 0.2em 0;
+        color: var(--dark);      
+      }
+
+      & .tags > li > a {
+        font-size: 0.9em;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+
+// Changes to base.scss
+
+h1, h2, h3, h4, h5, h6, thead {
+  margin: 2.4rem 0 0;
+
+  &:hover {
+    color: var(--secondary);
+    opacity: 0.8;
+    transition: 0.3s ease;
+  }
+}
+
+
+.section-li {
+  & > .desc {
+    text-overflow: ellipsis;
+  }
+
+  & > .tags {
+    text-align: right;
+  }
+}
+
+.singlePage {
+  padding: 2em 28vw;
+  margin: 0 auto;
+  max-width: 1000px;
+  @media all and (max-width: 1200px) {
+    padding: 25px 7vw;
+  }
+}
