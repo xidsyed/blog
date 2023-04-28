@@ -1,5 +1,5 @@
 ---
-title: "The Curious Quest for Code and Clarity"
+title: "A Curious Quest for Code and Clarity"
 enableToc: false
 ---
 Hello There 👋,

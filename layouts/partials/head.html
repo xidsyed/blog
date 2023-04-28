@@ -180,6 +180,10 @@
       {{end}}
       
       // analytics
+      {{ template "_internal/google_analytics.html" . }}
+      {{ template "_internal/google_analytics_async.html" . }}    
+
+      {{/*  // analytics
       function clickHandler(evt) {
         const target = evt.target 
         const classNames = target.className.split(" ")
@@ -194,7 +198,7 @@
           }
         })
       }
-
+  */}}
       const links = document.querySelectorAll("a")
       for (link of links) {
         if (link.className.includes("root-title")) {
@@ -247,6 +251,6 @@
   </script>
   {{end}}
   {{ $trimmedURL := trim (index (split .Site.BaseURL "://") 1) "/" }}
-  <script defer data-domain="{{$trimmedURL}}" src="https://plausible.io/js/script.js"></script>
-  <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  {{/*  <script defer data-domain="{{$trimmedURL}}" src="https://plausible.io/js/script.js"></script>
+  <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>  */}}
 </head>
