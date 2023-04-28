@@ -2,6 +2,10 @@
 {{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
 {{ $data := index $.Site.Data $config }}
 <head>
+  <!--  Analytics  -->
+  {{ template "_internal/google_analytics.html" . }}
+  {{ template "_internal/google_analytics_async.html" . }} 
+
   <!-- Meta tags -->
   <meta charset="UTF-8" />
   <meta
@@ -96,8 +100,9 @@
   <!--  Preload page vars  -->
   {{$linkIndex := resources.Get "indices/linkIndex.json" | resources.Fingerprint
   "md5" | resources.Minify | }} {{$contentIndex := resources.Get
-  "indices/contentIndex.json" | resources.Fingerprint "md5" | resources.Minify
-  }}
+    "indices/contentIndex.json" | resources.Fingerprint "md5" | resources.Minify
+  }}   
+
   <script>
     const SEARCH_ENABLED = {{.Site.Data.config.search.enableSemanticSearch}}
     const LATEX_ENABLED = {{.Site.Data.config.enableLatex}}
@@ -178,13 +183,10 @@
           )
         }
       {{end}}
-      
+  
       // analytics
-      {{ template "_internal/google_analytics.html" . }}
-      {{ template "_internal/google_analytics_async.html" . }}    
 
-      {{/*  // analytics
-      function clickHandler(evt) {
+      {{/*  function clickHandler(evt) {
         const target = evt.target 
         const classNames = target.className.split(" ")
         const broken = classNames.includes("broken")
@@ -197,8 +199,8 @@
             graph: false,
           }
         })
-      }
-  */}}
+      }  */}}
+    
       const links = document.querySelectorAll("a")
       for (link of links) {
         if (link.className.includes("root-title")) {
