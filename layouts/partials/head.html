@@ -22,7 +22,7 @@
   <meta name="twitter:description" content="{{if .IsHome}}{{$data.description | default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}" />
   {{ if and .Params.image (.Params.image.src) }}
     {{ $src := .Params.image.src | absURL }}
-    <meta property="og:image" content="{{ $src }}" />
+    <meta property="og:image" itemprop="image" content="{{ $src }}" />
     <meta itemprop="image" content="{{ $src }}" />
     <meta name="twitter:image" content="{{ $src }}" />
     <meta name="twitter:image:src" content="{{ $src }}" />
