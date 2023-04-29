@@ -4,7 +4,7 @@ date: 2023-04-27
 tags: [AI]
 summary: "Is rewriting a 306 line syntax color profile intelligence"
 image:
-  src: "notes/images/robot-evening.png"
+  src: "notes/images/robot-evening.jpg"
   alt: "robots taking an evening walk"
 ---
 
