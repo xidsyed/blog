@@ -22,15 +22,13 @@
   <meta name="twitter:description" content="{{if .IsHome}}{{$data.description | default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}" />
   {{ if and .Params.image (.Params.image.src) }}
     {{ $src := .Params.image.src | absURL }}
-    <meta property="og:image" itemprop="image" content="{{ $src }}" />
-    <meta itemprop="image" content="{{ $src }}" />
+    <meta property="og:image" content="{{ $src }}" />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />  
     <meta name="twitter:image" content="{{ $src }}" />
-    <meta name="twitter:image:src" content="{{ $src }}" />
   {{ else }}
-    <meta property="og:image" itemprop="image" content="{{.Site.BaseURL}}icon.png" />
-    <meta itemprop="image" content="{{.Site.BaseURL}}icon.png" />
+    <meta property="og:image" content="{{.Site.BaseURL}}icon.png" />
     <meta name="twitter:image" content="{{.Site.BaseURL}}icon.png" />
-    <meta name="twitter:image:src" content="{{.Site.BaseURL}}icon.png" />
   {{ end }}
   {{ range $data.links }}
     {{ if strings.Contains .link "twitter.com" }}
