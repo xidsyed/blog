@@ -23,6 +23,7 @@
   {{ if and .Params.image (.Params.image.src) }}
     {{ $src := .Params.image.src | absURL }}
     <meta property="og:image" itemprop="image" content="{{ $src }}" />
+    <meta property="og:image:type" content="image/jpeg" />
     <meta itemprop="image" content="{{ $src }}" />
     <meta name="twitter:image" content="{{ $src }}" />
     <meta name="twitter:image:src" content="{{ $src }}" />
