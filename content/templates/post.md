@@ -1,10 +1,11 @@
 ---
 title: "<% tp.file.title %>"
 date: <% tp.date.now("YYYY-MM-DD") %>
-tags:
-- Untagged
+tags: [Untagged]
 aliases:
 - 
-description:
--  
+summary: ""
+image:
+  src: ""
+  alt: ""
 ---
