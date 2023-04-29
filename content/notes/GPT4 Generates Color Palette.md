@@ -8,7 +8,6 @@ image:
   alt: "robots taking an evening walk"
 ---
 
-
 ## I asked GPT4 to create a lighter version of the Nord color profile
 
 -   I seriously doubted it could do it. As intelligent as it is, playing with hexcodes, doesn't seem like a very easy task, without any additional tools, on top of that, it had to maintain **306 lines of code** in it's context, and copy it all line for line, without making a single error, only swapping out lighter hex values for darker ones as deemed necessary
