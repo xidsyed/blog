@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-06-25]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Remove Loop"
+date: 2022-06-25
+tags: [dsadeck, linkedlist]
+aliases:
+- 
+summary: "Solution to the problem: GFG Remove Loop"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #linkedlist 
 Pattern: 
-Related: 
 
 ---
 

@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-30]]
-Tags: 
-Related: 
-Resources: 
+title: "Given n appointments, find all conflicting appointments"
+date: 2022-07-30
+tags: [dsadeck, bst]
+aliases:
+- 
+summary: "Solution to the problem: Given n appointments, find all conflicting appointments"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Given n appointments, find all conflicting appointments - GeeksforGeeks](https://www.geeksforgeeks.org/given-n-appointments-find-conflicting-appointments/)
 
-Tags:  #dsadeck  #bst 
 Pattern: 
-Related: 
 
 ---
 ## Approach 1

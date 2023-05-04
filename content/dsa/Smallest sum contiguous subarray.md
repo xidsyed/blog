@@ -1,17 +1,18 @@
 ---
-Date Created: [[2022-05-13]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-06-09
-sr-interval: 4
-sr-ease: 270
+title: "Smallest sum contiguous subarray"
+date: 2022-05-13
+tags: [easy, arrays, completed, subarrays, dsadeck]
+aliases:
+- 
+summary: "Solution to the problem: Smallest sum contiguous subarray"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Smallest sum contiguous subarray | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/smallest-sum-contiguous-subarray/1/#)
 
-Tags:  #easy #arrays #completed #subarrays #dsadeck 
 Pattern: [[Pattern Kadane's Algorithm]]
 
 ---

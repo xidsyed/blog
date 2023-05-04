@@ -1,11 +1,13 @@
 ---
-Date Created: [[2022-06-02]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-06-09
-sr-interval: 4
-sr-ease: 270
+title: "GFG Kth Largest Subarray"
+date: 2022-06-02
+tags: [dsadeck, arrays, completed, subarrays]
+aliases:
+- 
+summary: "Solution to the problem: GFG Kth Largest Subarray"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 
@@ -13,7 +15,6 @@ sr-ease: 270
 [K-th Largest Sum Contiguous Subarray | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/k-th-largest-sum-contiguous-subarray/1/)
 
 
-Tags:  #dsadeck  #arrays #completed #subarrays 
 Pattern:[[Pattern Sliding Window]]
 
 ---

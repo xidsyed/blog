@@ -1,17 +1,18 @@
 ---
-Date Created: [[2022-05-13]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-06-08
-sr-interval: 3
-sr-ease: 250
+title: "First Repeating Element"
+date: 2022-05-13
+tags: [easy, arrays, completed, hashmap, dsadeck]
+aliases:
+- 
+summary: "Solution to the problem: First Repeating Element"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #easy #arrays #completed #hashmap #dsadeck 
 Pattern: [[Frequency]]
 
 ---

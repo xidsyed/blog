@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-06-24]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-06-27
-sr-interval: 3
-sr-ease: 250
+title: "GFG Minimum swaps and K together"
+date: 2022-06-24
+tags: [dsadeck, arrays]
+aliases:
+- 
+summary: "Solution to the problem: GFG Minimum swaps and K together"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #arrays 
 Pattern: [[Pattern Sliding Window]]
-Related: 
 
 ---
 

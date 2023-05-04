@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-08-29]]
-Tags: 
-Related: 
-Resources: 
+title: "Minimum Number of Flips"
+date: 2022-08-29
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: Minimum Number of Flips"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Min Number of Flips | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/min-number-of-flips3210/1)
 
-Tags:  #dsadeck  #strings 
 Pattern: 
-Related: 
 
 ---
 

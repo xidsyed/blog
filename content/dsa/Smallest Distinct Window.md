@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-08-31]]
-Tags: 
-Related: 
-Resources: 
+title: "Smallest Distinct Window"
+date: 2022-08-31
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: Smallest Distinct Window"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #strings
 Pattern: 
 Related: [[632. Smallest Range Covering Elements from K Lists]]
 

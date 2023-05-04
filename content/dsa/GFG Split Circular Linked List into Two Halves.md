@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-06-26]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-06-30
-sr-interval: 4
-sr-ease: 270
+title: "GFG Split Circular Linked List into Two Halves"
+date: 2022-06-26
+tags: [dsadeck, linkedlist]
+aliases:
+- 
+summary: "Solution to the problem: GFG Split Circular Linked List into Two Halves"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Split a Circular Linked List into two halves | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1#)
 
-Tags:  #dsadeck  #linkedlist 
 Pattern: 
-Related: 
 
 ---
 

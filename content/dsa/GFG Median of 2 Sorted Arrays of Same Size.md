@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-06-24]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Median of 2 Sorted Arrays of Same Size"
+date: 2022-06-24
+tags: [dsadeck, arrays, mergesort]
+aliases:
+- 
+summary: "Solution to the problem: GFG Median of 2 Sorted Arrays of Same Size"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #arrays #mergesort
 Pattern: 
 Related: [[4. Median of Two Sorted Arrays]]
 

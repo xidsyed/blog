@@ -1,17 +1,18 @@
 ---
-Date Created: [[2022-06-24]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-07-05
-sr-interval: 11
-sr-ease: 270
+title: "GFG Triplet Sum in Array"
+date: 2022-06-24
+tags: [dsadeck, arrays, arithmetic]
+aliases:
+- 
+summary: "Solution to the problem: GFG Triplet Sum in Array"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #arrays #arithmetic 
 Pattern: [[Pattern Two Pointer]]
 Related: [[15. 3Sum]]
 

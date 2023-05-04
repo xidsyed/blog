@@ -1,17 +1,18 @@
 ---
-Date Created: [[2022-07-01]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-07-16
-sr-interval: 3
-sr-ease: 250
+title: "Diameter of a Tree"
+date: 2022-07-01
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Diameter of a Tree"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
 Related: [[Balance Binary Tree]]
 

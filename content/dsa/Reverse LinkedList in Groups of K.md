@@ -1,15 +1,18 @@
 ---
-Date Created: [[2022-07-18]]
-Tags: 
-Related: 
-Resources: 
+title: "Reverse LinkedList in Groups of K"
+date: 2022-07-18
+tags: [dsadeck, linkedlist]
+aliases:
+- 
+summary: "Solution to the problem: Reverse LinkedList in Groups of K"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Reverse a Linked List in groups of given size. | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1)
-Tags:  #dsadeck  #linkedlist 
 Pattern: 
-Related: 
 
 ---
 

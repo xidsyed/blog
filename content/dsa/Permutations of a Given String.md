@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-08-11]]
-Tags: 
-Related: 
-Resources: 
+title: "Permutations of a Given String"
+date: 2022-08-11
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: Permutations of a Given String"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #strings 
 Pattern: 
-Related: 
 
 ---
 

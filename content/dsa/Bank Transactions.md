@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-09-11]]
-Tags: 
-Related: 
-Resources: 
+title: "Bank Transactions"
+date: 2022-09-11
+tags: [dsadeck, dp]
+aliases:
+- 
+summary: "Solution to the problem: Bank Transactions"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #dp
 Pattern: 
-Related: 
 
 ---
 

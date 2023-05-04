@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-16]]
-Tags: 
-Related: 
-Resources: 
+title: "Reverse Doubly Linked List in Groups of K"
+date: 2022-07-16
+tags: [dsadeck, linkedlist]
+aliases:
+- 
+summary: "Solution to the problem: Reverse Doubly Linked List in Groups of K"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #linkedlist 
 Pattern: 
-Related: 
 
 ---
 

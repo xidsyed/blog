@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-06-30]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-07-17
-sr-interval: 4
-sr-ease: 270
+title: "Count and Sum of Nodes"
+date: 2022-06-30
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Count and Sum of Nodes"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 

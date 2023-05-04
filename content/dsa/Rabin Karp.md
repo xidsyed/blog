@@ -1,8 +1,13 @@
 ---
-Date Created: [[2022-08-22]]
-Tags: 
-Related: 
-Resources: 
+title: "Rabin Karp"
+date: 2022-08-22
+tags: [dsadeck, strings, concept]
+aliases:
+- 
+summary: "Solution to the problem: Rabin Karp"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
@@ -11,7 +16,6 @@ String Matching with Rolling Hash in less than $O(m*n)$
 [Explanation and Code](https://www.programiz.com/dsa/rabin-karp-algorithm)
 
 
-Tags:  #dsadeck  #strings #concept
 Pattern: [[Pattern String Matching]]
 Related: [[KMP Algo]]
 

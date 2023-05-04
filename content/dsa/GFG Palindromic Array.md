@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-06-24]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-06-28
-sr-interval: 4
-sr-ease: 270
+title: "GFG Palindromic Array"
+date: 2022-06-24
+tags: [dsadeck, arrays]
+aliases:
+- 
+summary: "Solution to the problem: GFG Palindromic Array"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Palindromic Array | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/palindromic-array-1587115620/1#)
 
-Tags:  #dsadeck  #arrays
 Pattern: 
-Related: 
 
 ---
 

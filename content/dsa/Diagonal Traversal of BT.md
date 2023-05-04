@@ -1,17 +1,20 @@
 ---
-Date Created: [[2022-07-03]]
-Tags: 
-Related: 
-Resources: 
+title: "Diagonal Traversal of BT"
+date: 2022-07-03
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Diagonal Traversal of BT"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Diagonal Traversal | Interviewbit](https://www.interviewbit.com/problems/diagonal-traversal/)
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: [[Pattern Binary Tree Axis]]
-Related: 
 
 ---
 

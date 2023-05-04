@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-22]]
-Tags: 
-Related: 
-Resources: 
+title: "Flatten a BST"
+date: 2022-07-22
+tags: [dsadeck, bst]
+aliases:
+- 
+summary: "Solution to the problem: Flatten a BST"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Flatten BST To A Sorted List (codingninjas.com)](https://www.codingninjas.com/codestudio/problems/flatten-bst-to-a-sorted-list_1169459?)
 
-Tags:  #dsadeck  #bst 
 Pattern: 
-Related: 
 
 ---
 

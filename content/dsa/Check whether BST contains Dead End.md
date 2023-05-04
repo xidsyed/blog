@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-07-30]]
-Tags: 
-Related: 
-Resources: 
+title: "Check whether BST contains Dead End"
+date: 2022-07-30
+tags: [dsadeck, bst]
+aliases:
+- 
+summary: "Solution to the problem: Check whether BST contains Dead End"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #bst 
 Pattern: 
 Related: [[1008. Construct Binary Search Tree from Preorder Traversal]]
 

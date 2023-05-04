@@ -1,8 +1,13 @@
 ---
-Date Created: [[2022-07-07]]
-Tags: 
-Related: 
-Resources: 
+title: "Binary Search Tree"
+date: 2022-07-07
+tags: []
+aliases:
+- 
+summary: "Solution to the problem: Binary Search Tree"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 - left child < root < right chilid

@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-06-13]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Three Way Paritioning"
+date: 2022-06-13
+tags: [dsadeck, arrays, twopointer]
+aliases:
+- 
+summary: "Solution to the problem: GFG Three Way Paritioning"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 [Three way partitioning | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/three-way-partitioning/1)
-Tags:  #dsadeck  #arrays #twopointer
 Pattern: [[Pattern Array Partitioning]] 
 
 ---

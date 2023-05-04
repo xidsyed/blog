@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-18]]
-Tags: 
-Related: 
-Resources: 
+title: "Police and Thieves"
+date: 2022-07-18
+tags: [dsadeck, greedy]
+aliases:
+- 
+summary: "Solution to the problem: Police and Thieves"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #greedy 
 Pattern: 
-Related: 
 
 ---
 

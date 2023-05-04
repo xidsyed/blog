@@ -1,17 +1,20 @@
 ---
-Date Created: [[2022-07-03]]
-Tags: 
-Related: 
-Resources: 
+title: "Zig Zag Traversal"
+date: 2022-07-03
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Zig Zag Traversal"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Binary Tree Zigzag Level Order Traversal - LeetCode](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 

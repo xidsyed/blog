@@ -1,8 +1,13 @@
 ---
-Date Created: [[2022-07-13]]
-Tags: 
-Related: 
-Resources: 
+title: "Morris Traversals of Binary Tree"
+date: 2022-07-13
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Morris Traversals of Binary Tree"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 [[Binary Tree#Traversals]]
 ## Problem Statement
@@ -12,7 +17,6 @@ Traverse a binary tree (inorder/postorder/preorder), using O(1) space, return ro
 ![[Pasted image 20220713173904.png]]
 A binary tree is threaded by making all right child pointers that would normally be null point to the inorder successor of the node (if it exists), and all left child pointers that would normally be null point to the inorder predecessor of the node.
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
 Related: [Find median of BST in O(n) time and O(1) space - GeeksforGeeks](https://www.geeksforgeeks.org/find-median-bst-time-o1-space/)
 

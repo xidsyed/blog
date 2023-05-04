@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-07-23]]
-Tags: 
-Related: 
-Resources: 
+title: "Convert Sorted List to BST"
+date: 2022-07-23
+tags: [dsadeck, bst]
+aliases:
+- 
+summary: "Solution to the problem: Convert Sorted List to BST"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #bst 
 Pattern: 
 Related:  [[Balance Binary Tree]]
 

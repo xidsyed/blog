@@ -1,15 +1,19 @@
 ---
-Date Created: [[2022-06-14]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Minimum Number of Jumps"
+date: 2022-06-14
+tags: [dsadeck, arrays]
+aliases:
+- 
+summary: "Solution to the problem: GFG Minimum Number of Jumps"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 ![](https://i.imgur.com/vSQWN9I.png)
 
-Tags:  #dsadeck  #arrays 
 Pattern: 
 
 ---

@@ -1,17 +1,20 @@
 ---
-Date Created: [[2022-09-24]]
-Tags: 
-Related: 
-Resources: 
+title: "Remove Consecutive Characters"
+date: 2022-09-24
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: Remove Consecutive Characters"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Remove Consecutive Characters | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/consecutive-elements2306/1)
 Remove adjacent duplicates recursively
 
-Tags:  #dsadeck  #strings
 Pattern: 
-Related: 
 
 ---
 

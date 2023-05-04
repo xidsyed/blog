@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-08-11]]
-Tags: 
-Related: 
-Resources: 
+title: "Longest Palindrome in String"
+date: 2022-08-11
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: Longest Palindrome in String"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #strings 
 Pattern: 
-Related: 
 
 ---
 

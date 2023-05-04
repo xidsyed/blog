@@ -1,17 +1,18 @@
 ---
-Date Created: [[2022-07-30]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-08-02
-sr-interval: 3
-sr-ease: 250
+title: "Two Sum with 2 BSTs"
+date: 2022-07-30
+tags: [dsadeck, bst]
+aliases:
+- 
+summary: "Solution to the problem: Two Sum with 2 BSTs"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Brothers From Different Roots | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/brothers-from-different-root/1)
 
-Tags:  #dsadeck  #bst
 Pattern: 
 Related: [[Iterative Traversals of BT#Inorder]]
 

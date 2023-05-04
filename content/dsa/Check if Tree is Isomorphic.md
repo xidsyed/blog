@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-07-13]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-07-17
-sr-interval: 4
-sr-ease: 270
+title: "Check if Tree is Isomorphic"
+date: 2022-07-13
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Check if Tree is Isomorphic"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 

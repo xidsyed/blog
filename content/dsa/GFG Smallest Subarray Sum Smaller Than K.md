@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-06-24]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-06-28
-sr-interval: 4
-sr-ease: 270
+title: "GFG Smallest Subarray Sum Smaller Than K"
+date: 2022-06-24
+tags: [dsadeck, arrays]
+aliases:
+- 
+summary: "Solution to the problem: GFG Smallest Subarray Sum Smaller Than K"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #arrays
 Pattern: [[Pattern Two Pointer]]
-Related: 
 
 ---
 

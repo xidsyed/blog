@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-19]]
-Tags: 
-Related: 
-Resources: 
+title: "Delete Nodes With Greater Value on Right"
+date: 2022-07-19
+tags: [dsadeck, linkedlist]
+aliases:
+- 
+summary: "Solution to the problem: Delete Nodes With Greater Value on Right"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #linkedlist 
 Pattern: 
-Related: 
 
 ---
 

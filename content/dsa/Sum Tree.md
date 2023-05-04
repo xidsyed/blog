@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-06]]
-Tags: 
-Related: 
-Resources: 
+title: "Sum Tree"
+date: 2022-07-06
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Sum Tree"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 

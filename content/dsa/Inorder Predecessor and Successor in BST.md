@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-22]]
-Tags: 
-Related: 
-Resources: 
+title: "Inorder Predecessor and Successor in BST"
+date: 2022-07-22
+tags: [dsadeck, bst]
+aliases:
+- 
+summary: "Solution to the problem: Inorder Predecessor and Successor in BST"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #bst
 Pattern: 
-Related: 
 
 ---
 

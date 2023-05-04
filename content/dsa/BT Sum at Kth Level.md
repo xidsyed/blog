@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-01]]
-Tags: 
-Related: 
-Resources: 
+title: "BT Sum at Kth Level"
+date: 2022-07-01
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: BT Sum at Kth Level"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 

@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-06-09]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Longest Subarray having Sum K"
+date: 2022-06-09
+tags: [dsadeck, arrays]
+aliases:
+- 
+summary: "Solution to the problem: GFG Longest Subarray having Sum K"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Longest sub-array having sum k - GeeksforGeeks](https://www.geeksforgeeks.org/longest-sub-array-sum-k/)
 
-Tags:  #dsadeck  #arrays
 Pattern: [[Pattern Prefix Array]]
 
 ---

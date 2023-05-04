@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-19]]
-Tags: 
-Related: 
-Resources: 
+title: "Clone LL with Random Pointer"
+date: 2022-07-19
+tags: [dsadeck, linkedlist]
+aliases:
+- 
+summary: "Solution to the problem: Clone LL with Random Pointer"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Clone a linked list with next and random pointer | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/clone-a-linked-list-with-next-and-random-pointer/1)
 
-Tags:  #dsadeck  #linkedlist 
 Pattern: 
-Related: 
 
 ---
 

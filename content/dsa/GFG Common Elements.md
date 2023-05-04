@@ -1,8 +1,13 @@
 ---
-Date Created: [[2022-06-19]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Common Elements"
+date: 2022-06-19
+tags: [dsadeck, arrays]
+aliases:
+- 
+summary: "Solution to the problem: GFG Common Elements"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
@@ -10,7 +15,6 @@ Resources:
 ![](https://i.imgur.com/KbqaL3l.png)
 
 
-Tags:  #dsadeck  #arrays
 Pattern: 
 
 ---

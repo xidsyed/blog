@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-08-28]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-09-01
-sr-interval: 4
-sr-ease: 270
+title: "FInd String in Grid"
+date: 2022-08-28
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: FInd String in Grid"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #strings
 Pattern: 
-Related: 
 
 ---
 

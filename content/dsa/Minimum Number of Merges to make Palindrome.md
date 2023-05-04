@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-06-24]]
-Tags: 
-Related: 
-Resources: 
+title: "Minimum Number of Merges to make Palindrome"
+date: 2022-06-24
+tags: [dsadeck, arrays]
+aliases:
+- 
+summary: "Solution to the problem: Minimum Number of Merges to make Palindrome"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Find minimum number of merge operations to make an array palindrome - GeeksforGeeks](https://www.geeksforgeeks.org/find-minimum-number-of-merge-operations-to-make-an-array-palindrome/)
 
-Tags:  #dsadeck  #arrays
 Pattern: 
-Related: 
 
 ---
 

@@ -1,8 +1,13 @@
 ---
-Date Created: [[2022-07-15]]
-Tags: 
-Related: 
-Resources: 
+title: "Job Sequencing Problem"
+date: 2022-07-15
+tags: [dsadeck, greedy, heap]
+aliases:
+- 
+summary: "Solution to the problem: Job Sequencing Problem"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
@@ -19,9 +24,7 @@ class Job {
 }
 ```
 
-Tags:  #dsadeck  #greedy  #heap 
 Pattern: 
-Related: 
 
 ---
 ## Approach 1

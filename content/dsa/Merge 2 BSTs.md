@@ -1,17 +1,20 @@
 ---
-Date Created: [[2022-07-23]]
-Tags: 
-Related: 
-Resources: 
+title: "Merge 2 BSTs"
+date: 2022-07-23
+tags: [dsadeck, bst]
+aliases:
+- 
+summary: "Solution to the problem: Merge 2 BSTs"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Merge Two BSTs (codingninjas.com)](https://www.codingninjas.com/codestudio/problems/h_920474)
 
 
-Tags:  #dsadeck  #bst 
 Pattern: 
-Related: 
 
 ---
 

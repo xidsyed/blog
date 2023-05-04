@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-19]]
-Tags: 
-Related: 
-Resources: 
+title: "First Non Repeating Character in Stream"
+date: 2022-07-19
+tags: [dsadeck, linkedlist, strings]
+aliases:
+- 
+summary: "Solution to the problem: First Non Repeating Character in Stream"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #linkedlist #strings 
 Pattern:
-Related: 
 
 ---
 

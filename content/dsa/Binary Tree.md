@@ -1,8 +1,13 @@
 ---
-Date Created: [[2022-06-30]]
-Tags: 
-Related: 
-Resources: 
+title: "Binary Tree"
+date: 2022-06-30
+tags: []
+aliases:
+- 
+summary: "Solution to the problem: Binary Tree"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 # Build Tree Preorder

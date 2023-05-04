@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-08-21]]
-Tags: 
-Related: 
-Resources: 
+title: "Next Permutation"
+date: 2022-08-21
+tags: [dsadeck, arrays]
+aliases:
+- 
+summary: "Solution to the problem: Next Permutation"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #arrays 
 Pattern: 
 Related: [[31. Next Permutation]]
 

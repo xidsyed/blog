@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-07]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Sum of Longest Bloodline"
+date: 2022-07-07
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: GFG Sum of Longest Bloodline"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 

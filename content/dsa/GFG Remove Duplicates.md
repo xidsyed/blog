@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-06-25]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-06-29
-sr-interval: 4
-sr-ease: 270
+title: "GFG Remove Duplicates"
+date: 2022-06-25
+tags: [dsadeck, arrays]
+aliases:
+- 
+summary: "Solution to the problem: GFG Remove Duplicates"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #arrays
 Pattern: 
-Related: 
 
 ---
 

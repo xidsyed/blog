@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-07-30]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-08-02
-sr-interval: 3
-sr-ease: 250
+title: "Replace every element with the least greater element on its right"
+date: 2022-07-30
+tags: [dsadeck, bst]
+aliases:
+- 
+summary: "Solution to the problem: Replace every element with the least greater element on its right"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #bst 
 Pattern: 
-Related: 
 
 ---
 

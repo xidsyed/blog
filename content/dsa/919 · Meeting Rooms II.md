@@ -1,11 +1,13 @@
 ---
-Date Created: [[2022-07-15]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-07-18
-sr-interval: 3
-sr-ease: 250
+title: "919 · Meeting Rooms II"
+date: 2022-07-15
+tags: [dsadeck, intervals]
+aliases:
+- 
+summary: "Solution to the problem: 919 · Meeting Rooms II"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
@@ -13,7 +15,6 @@ sr-ease: 250
 [919 · Meeting Rooms II - LintCode](https://www.lintcode.com/problem/919/)
 
 
-Tags:  #dsadeck  #intervals 
 Pattern: [[Pattern Activity Selection Problem]]
 Related: [[986. Interval List Intersections]]
 

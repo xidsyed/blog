@@ -1,17 +1,18 @@
 ---
-Date Created: [[2022-06-07]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2023-06-08
-sr-interval: 280
-sr-ease: 250
+title: "42 Trapping Rain Water"
+date: 2022-06-07
+tags: [dsadeck, arrays, tboptimised]
+aliases:
+- 
+summary: "Solution to the problem: 42 Trapping Rain Water"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #arrays #tboptimised
 Pattern: 
 
 ---

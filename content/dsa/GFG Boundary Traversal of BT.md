@@ -1,15 +1,18 @@
 ---
-Date Created: [[2022-07-02]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Boundary Traversal of BT"
+date: 2022-07-02
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: GFG Boundary Traversal of BT"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Boundary Traversal of binary tree | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1)
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 

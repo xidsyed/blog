@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-09-11]]
-Tags: 
-Related: 
-Resources: 
+title: "Minimum Characters to be added to front to make string Palindrome"
+date: 2022-09-11
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: Minimum Characters to be added to front to make string Palindrome"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Minimum characters to be added at front to make string palindrome - GeeksforGeeks](https://www.geeksforgeeks.org/minimum-characters-added-front-make-string-palindrome/)
 
-Tags:  #dsadeck  #strings 
 Pattern: 
-Related: 
 
 ---
 

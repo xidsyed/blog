@@ -1,20 +1,20 @@
 ---
-Date Created: [[2022-07-23]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-07-27
-sr-interval: 4
-sr-ease: 270
+title: "Populate Inorder Successor for all Nodes"
+date: 2022-07-23
+tags: [dsadeck, bst]
+aliases:
+- 
+summary: "Solution to the problem: Populate Inorder Successor for all Nodes"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Populate Inorder Successor for all nodes | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/populate-inorder-successor-for-all-nodes/1)
 
 
-Tags:  #dsadeck  #bst
 Pattern: 
-Related: 
 
 ---
 

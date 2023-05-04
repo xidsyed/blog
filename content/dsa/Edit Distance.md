@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-08-20]]
-Tags: 
-Related: 
-Resources: 
+title: "Edit Distance"
+date: 2022-08-20
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: Edit Distance"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #strings 
 Pattern: 
 Related: [[1143. Longest Common Subsequence]]
 

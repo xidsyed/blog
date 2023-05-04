@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-29]]
-Tags: 
-Related: 
-Resources: 
+title: "Merge 2 Sorted Linked Lists"
+date: 2022-07-29
+tags: [dsadeck, linkedlist]
+aliases:
+- 
+summary: "Solution to the problem: Merge 2 Sorted Linked Lists"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #linkedlist 
 Pattern: 
-Related: 
 
 ---
 

@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-08-11]]
-Tags: 
-Related: 
-Resources: 
+title: "Longest Repeating Subsequence"
+date: 2022-08-11
+tags: [dsadeck, strings, dp]
+aliases:
+- 
+summary: "Solution to the problem: Longest Repeating Subsequence"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #strings #dp
 Pattern: 
 Related: [[1143. Longest Common Subsequence]]
 

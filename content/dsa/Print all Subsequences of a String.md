@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-08-11]]
-Tags: 
-Related: 
-Resources: 
+title: "Print all Subsequences of a String"
+date: 2022-08-11
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: Print all Subsequences of a String"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #strings 
 Pattern: 
-Related: 
 
 ---
 

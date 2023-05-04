@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-06-19]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Count Inversions"
+date: 2022-06-19
+tags: [dsadeck, arrays]
+aliases:
+- 
+summary: "Solution to the problem: GFG Count Inversions"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #arrays
 Pattern: 
 
 ---

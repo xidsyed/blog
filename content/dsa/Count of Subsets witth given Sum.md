@@ -1,17 +1,20 @@
 ---
-Date Created: [[2022-08-05]]
-Tags: 
-Related: 
-Resources: 
+title: "Count of Subsets witth given Sum"
+date: 2022-08-05
+tags: [dsadeck, dp]
+aliases:
+- 
+summary: "Solution to the problem: Count of Subsets witth given Sum"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 
 ## Problem Statement
 [Count of subsets with sum equal to X - GeeksforGeeks](https://www.geeksforgeeks.org/count-of-subsets-with-sum-equal-to-x/)
 
-Tags:  #dsadeck  #dp
 Pattern: 
-Related: 
 
 ---
 

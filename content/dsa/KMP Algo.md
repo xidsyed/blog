@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-09-14]]
-Tags: 
-Related: 
-Resources: 
+title: "KMP Algo"
+date: 2022-09-14
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: KMP Algo"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 LPS
 
-Tags:  #dsadeck  #strings
 Pattern: 
-Related: 
 
 ---
 

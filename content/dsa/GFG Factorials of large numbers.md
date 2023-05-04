@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-06-20]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Factorials of large numbers"
+date: 2022-06-20
+tags: [dsadeck, arrays, arithmetic]
+aliases:
+- 
+summary: "Solution to the problem: GFG Factorials of large numbers"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #arrays #arithmetic 
 Pattern: 
 
 ---

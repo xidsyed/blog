@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-07-03]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-07-06
-sr-interval: 3
-sr-ease: 250
+title: "Binary Tree to DLL"
+date: 2022-07-03
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Binary Tree to DLL"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 

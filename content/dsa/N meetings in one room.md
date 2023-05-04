@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-07-15]]
-Tags: 
-Related: 
-Resources: 
+title: "N meetings in one room"
+date: 2022-07-15
+tags: [dsadeck, intervals]
+aliases:
+- 
+summary: "Solution to the problem: N meetings in one room"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #intervals 
 Pattern: 
 Related: [[919 · Meeting Rooms II]]
 

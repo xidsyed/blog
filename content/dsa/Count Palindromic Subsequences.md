@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-08-27]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-08-29
-sr-interval: 2
-sr-ease: 250
+title: "Count Palindromic Subsequences"
+date: 2022-08-27
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: Count Palindromic Subsequences"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #strings
 Pattern: 
-Related: 
 
 ---
 

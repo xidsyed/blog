@@ -1,17 +1,18 @@
 ---
-Date Created: [[2022-08-24]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-08-28
-sr-interval: 4
-sr-ease: 270
+title: "Count the Reversals"
+date: 2022-08-24
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: Count the Reversals"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #strings
 Pattern: 
 Related:  [[1963. Minimum Number of Swaps to Make the String Balanced]]
 

@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-06-26]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-07-01
-sr-interval: 4
-sr-ease: 270
+title: "GFG Check if Linked List is Palindrome"
+date: 2022-06-26
+tags: [dsadeck, linkedlist]
+aliases:
+- 
+summary: "Solution to the problem: GFG Check if Linked List is Palindrome"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #linkedlist 
 Pattern: 
-Related: 
 
 ---
 

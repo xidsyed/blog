@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-06-15]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Minimise the Heights"
+date: 2022-06-15
+tags: [dsadeck, arrays, incomplete]
+aliases:
+- 
+summary: "Solution to the problem: GFG Minimise the Heights"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #arrays #incomplete 
 Pattern: 
 
 ---

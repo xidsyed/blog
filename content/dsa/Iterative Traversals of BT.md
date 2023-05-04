@@ -1,12 +1,15 @@
 ---
-Date Created: [[2022-07-02]]
-Tags: 
-Related: 
-Resources: 
+title: "Iterative Traversals of BT"
+date: 2022-07-02
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Iterative Traversals of BT"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 For recrusive checkout:  [[Binary Tree#Traversals]]

@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-07-11]]
-Tags: 
-Related: 
-Resources: 
+title: "Maxiumum Sum of Non-Adjacent Nodes"
+date: 2022-07-11
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Maxiumum Sum of Non-Adjacent Nodes"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: [[Pattern Non-Adjacent Sum]]
 Related: [[198. House Robber]]
 

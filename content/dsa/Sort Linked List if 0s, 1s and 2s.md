@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-07-19]]
-Tags: 
-Related: 
-Resources: 
+title: "Sort Linked List if 0s, 1s and 2s"
+date: 2022-07-19
+tags: [dsadeck, linkedlist]
+aliases:
+- 
+summary: "Solution to the problem: Sort Linked List if 0s, 1s and 2s"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #linkedlist 
 Pattern: 
 Related: [[GFG Three Way Paritioning]]
 [Segregate even and odd nodes in a Link List | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/segregate-even-and-odd-nodes-in-a-linked-list5035/1)

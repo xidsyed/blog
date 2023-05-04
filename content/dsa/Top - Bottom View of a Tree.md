@@ -1,18 +1,18 @@
 ---
-Date Created: [[2022-07-03]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-07-07
-sr-interval: 4
-sr-ease: 270
+title: "Top - Bottom View of a Tree"
+date: 2022-07-03
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Top - Bottom View of a Tree"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Top View of Binary Tree | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/top-view-of-binary-tree/1)
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 

@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-08-21]]
-Tags: 
-Related: 
-Resources: 
+title: "Parenthesis Checker"
+date: 2022-08-21
+tags: [dsadeck, strings, stacks]
+aliases:
+- 
+summary: "Solution to the problem: Parenthesis Checker"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #strings #stacks 
 Pattern: 
-Related: 
 
 ---
 

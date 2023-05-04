@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-04]]
-Tags: 
-Related: 
-Resources: 
+title: "Flatten Binary Tree to LL"
+date: 2022-07-04
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Flatten Binary Tree to LL"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: [[Pattern Binary Tree Traversal]]
-Related: 
 
 ---
 

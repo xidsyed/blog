@@ -1,19 +1,19 @@
 ---
-Date Created: [[2022-07-30]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-08-03
-sr-interval: 4
-sr-ease: 270
+title: "Largest BST"
+date: 2022-07-30
+tags: [dsadeck, bst]
+aliases:
+- 
+summary: "Solution to the problem: Largest BST"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #bst 
 Pattern: 
-Related: 
 
 ---
 

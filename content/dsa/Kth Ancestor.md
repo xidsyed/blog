@@ -1,17 +1,20 @@
 ---
-Date Created: [[2022-07-13]]
-Tags: 
-Related: 
-Resources: 
+title: "Kth Ancestor"
+date: 2022-07-13
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Kth Ancestor"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Kth Ancestor in a Tree | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1/#)
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 

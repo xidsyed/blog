@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-04]]
-Tags: 
-Related: 
-Resources: 
+title: "Balance Binary Tree"
+date: 2022-07-04
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Balance Binary Tree"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 

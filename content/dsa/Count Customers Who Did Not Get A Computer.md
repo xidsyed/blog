@@ -1,8 +1,13 @@
 ---
-Date Created: [[2022-09-25]]
-Tags: 
-Related: 
-Resources: 
+title: "Count Customers Who Did Not Get A Computer"
+date: 2022-09-25
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: Count Customers Who Did Not Get A Computer"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
@@ -10,9 +15,7 @@ Resources:
 
 Strings version : [Function to find Number of customers who could not get a computer - GeeksforGeeks](https://www.geeksforgeeks.org/function-to-find-number-of-customers-who-could-not-get-a-computer/)
 
-Tags:  #dsadeck  #strings
 Pattern: 
-Related: 
 
 ---
 

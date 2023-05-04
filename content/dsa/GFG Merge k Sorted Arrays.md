@@ -1,17 +1,18 @@
 ---
-Date Created: [[2022-06-05]]
-Tags: 
-Related: 
-Resources: 
-sr-due: 2022-06-08
-sr-interval: 3
-sr-ease: 250
+title: "GFG Merge k Sorted Arrays"
+date: 2022-06-05
+tags: [dsadeck, arrays, heap]
+aliases:
+- 
+summary: "Solution to the problem: GFG Merge k Sorted Arrays"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #arrays #heap 
 Pattern: 
 
 ---

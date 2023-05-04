@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-09-25]]
-Tags: 
-Related: 
-Resources: 
+title: "Transform String"
+date: 2022-09-25
+tags: [dsadeck, strings]
+aliases:
+- 
+summary: "Solution to the problem: Transform String"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #strings
 Pattern: 
-Related: 
 
 ---
 

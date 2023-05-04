@@ -1,15 +1,19 @@
 ---
-Date Created: [[2022-06-14]]
-Tags: 
-Related: 
-Resources: 
+title: "Union and Intersection of Arrays"
+date: 2022-06-14
+tags: [dsadeck, arrays]
+aliases:
+- 
+summary: "Solution to the problem: Union and Intersection of Arrays"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Union of two arrays | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/union-of-two-arrays3538/1#)
 [Intersection of Two Arrays - LeetCode](https://leetcode.com/problems/intersection-of-two-arrays/submissions/)
 
-Tags:  #dsadeck  #arrays
 Pattern: 
 
 ---

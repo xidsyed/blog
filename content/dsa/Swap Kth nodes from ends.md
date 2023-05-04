@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-07-19]]
-Tags: 
-Related: 
-Resources: 
+title: "Swap Kth nodes from ends"
+date: 2022-07-19
+tags: [dsadeck, linkedlist]
+aliases:
+- 
+summary: "Solution to the problem: Swap Kth nodes from ends"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #linkedlist 
 Pattern: 
 Related: [[1721. Swapping Nodes in a Linked List]]  
 

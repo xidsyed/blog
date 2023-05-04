@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-06-20]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Maximum Product Subarray"
+date: 2022-06-20
+tags: [dsadeck, arrays, subarrays]
+aliases:
+- 
+summary: "Solution to the problem: GFG Maximum Product Subarray"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #arrays #subarrays 
 Pattern: 
 
 ---

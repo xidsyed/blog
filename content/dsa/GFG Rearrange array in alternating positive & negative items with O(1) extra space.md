@@ -1,8 +1,13 @@
 ---
-Date Created: [[2022-06-19]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Rearrange array in alternating positive & negative items with O(1) extra space"
+date: 2022-06-19
+tags: [dsadeck, arrays]
+aliases:
+- 
+summary: "Solution to the problem: GFG Rearrange array in alternating positive & negative items with O(1) extra space"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 
@@ -11,7 +16,6 @@ Resources:
 ![](https://i.imgur.com/iZ07yoW.png)
 InPlace O(1) space
 
-Tags:  #dsadeck  #arrays
 Pattern: 
 
 ---

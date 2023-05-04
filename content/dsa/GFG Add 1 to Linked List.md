@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-06-25]]
-Tags: 
-Related: 
-Resources: 
+title: "GFG Add 1 to Linked List"
+date: 2022-06-25
+tags: [dsadeck, linkedlist]
+aliases:
+- 
+summary: "Solution to the problem: GFG Add 1 to Linked List"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Add 1 to a number represented as linked list | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1#)
 
-Tags:  #dsadeck  #linkedlist 
 Pattern: 
-Related: 
 
 ---
 

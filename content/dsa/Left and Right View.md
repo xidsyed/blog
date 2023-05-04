@@ -1,16 +1,19 @@
 ---
-Date Created: [[2022-07-02]]
-Tags: 
-Related: 
-Resources: 
+title: "Left and Right View"
+date: 2022-07-02
+tags: [dsadeck, binarytrees]
+aliases:
+- 
+summary: "Solution to the problem: Left and Right View"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 [Left View of Binary Tree | Practice | GeeksforGeeks](https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1)
 
-Tags:  #dsadeck  #binarytrees 
 Pattern: 
-Related: 
 
 ---
 

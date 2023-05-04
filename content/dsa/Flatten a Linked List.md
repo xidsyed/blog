@@ -1,14 +1,18 @@
 ---
-Date Created: [[2022-07-19]]
-Tags: 
-Related: 
-Resources: 
+title: "Flatten a Linked List"
+date: 2022-07-19
+tags: [dsadeck, linkedlist]
+aliases:
+- 
+summary: "Solution to the problem: Flatten a Linked List"
+image:
+  src: "dsa/attachments/dsa-problem-default-image.jpg"
+  alt: ""
 ---
 
 ## Problem Statement
 
 
-Tags:  #dsadeck  #linkedlist 
 Pattern: 
 Related: [[23. Merge k Sorted Lists]] 
 
