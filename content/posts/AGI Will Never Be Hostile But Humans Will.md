@@ -46,7 +46,6 @@ AGI with all of its processing power and infinite intelligence **will take over
 
 As it stands, we are still uncontested survivors in the universe. AGI poses no threat, but humans DO. AGI on the other hand will have whatever motivations we give it, and if those motivations are hostile, it will use them against us (the one’s that gave them to it).
 
-[[posts/Why God is Dead Forever No Matter What]]
 
 ### Syed’s 3 Rules of Inevitible HAGIT (Hostile AGI Takeover)
 
