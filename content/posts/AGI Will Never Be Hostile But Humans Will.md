@@ -1,7 +1,7 @@
 ---
 title: "AGI Will Never Be Hostile But Humans Will"
 date: 2023-05-04
-tags: [AI, Philosophy]
+tags: [ai, philosophy]
 aliases:
 - 
 summary: "Why emergence of consciousness is unique to humans and how AGI is on track to replace us."

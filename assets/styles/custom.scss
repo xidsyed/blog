@@ -102,7 +102,7 @@
 }
 
 
-// #region base.scss changes
+// #region base.scss overrides 
 
 h1, h2, h3, h4, h5, h6, thead {
   margin: 2.4rem 0 0;
@@ -141,3 +141,13 @@ article > p > img {
   display: block;
   margin: 2em auto;
 }
+
+article > p > img.inline-icon{
+  display: inline;
+  margin: 0;
+  padding: 0;
+  width: 1.4em;
+  height: 1.4em;
+  vertical-align: text-bottom;
+}
+

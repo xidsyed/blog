@@ -1,7 +1,7 @@
 ---
 title: "GPT4 Generates Color Palette"
 date: 2023-04-27
-tags: [AI]
+tags: [ai]
 summary: "Is rewriting a 306 line syntax color profile intelligence"
 image:
   src: "thoughts/attachments/robot-evening.jpg"
