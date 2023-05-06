@@ -14,7 +14,7 @@
           <h2>Articles</h2>
           {{$writing := where .Site.RegularPages "Section" "posts" }}
           <ul>
-            {{range first 4 $writing }}
+            {{range first 3 $writing }}
             <li>
               <div class="section">
                 <div class="desc">
@@ -33,7 +33,7 @@
           <h2>Thoughts</h2>
           {{$notes := where .Site.RegularPages "Section" "thoughts"}}
           <ul class="delay t-3 stagger">
-            {{range first 3 $notes }}
+            {{range first 2 $notes }}
             <li>
               <div class="section">
                 <div class="desc">
