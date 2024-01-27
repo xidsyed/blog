@@ -11,6 +11,22 @@ image:
   alt: "Nested Russian Dolls"
 ---
 
+# What
+> My (probably over-engineered) solution for navigation events in jetpack compose, following the UDF principles.
+
+Instead of handling the navigation directly in the UI, by passing `NavControllers` around to child composables so they can invoke navigate on the controller, a cleaner and more idiomatic and a Unidirectional-Data-Flow-y way of doing that would be using viewmodel events.
+
+Yes yes, despite google developers [denouncing one-time events as an anti-pattern](https://medium.com/androiddevelopers/viewmodel-one-off-event-antipatterns-16a1da869b95), a  lot of the internet, including myself remains unconvinced there's anything wrong with them considering both approaches require work-arounds and are equally safe.
+
+Sending viewmodel events into channels is simple enough, but the problem arises when you have nested navigation graphs, in nested composables, that both need to listen to events, and process navigation events. I had  a couple of options
+
+1. Channels are meant for a single consumer. Multiple consumers can consume events from a channel, but the events won't be replicate across the consumers. So in our case the wrong composable could receive a navigation event and discard it, or worse fail to navigate causing an error / crash
+2. SharedFlows solve this problem by having a replay buffer which replicates the buffer values across all consumers. This solves the navigation event problem where events will always reach the right consumer. But the problem with this approach is that regular events like say 'Show Error' or 'Pop-up' will also be duplicated and consumed twice.
+3. Consuming the channel / flow event at the parent, and then passing down a flow to the respective composables where they listen from events from their own parents. Could work but pointless and convoluted.
+
+I finally settled on simply having 2 Navigation Channels one for the `NavigateMainEvent` and another for `NavigateBottomBarEvent`. Both subclassed from a `NavigationEvent` abstract class, which not only provides necessary parameters to be overwritten, but also common business logic such as picking the correct `navGraph` to send events based on the `Screen` chosen for the navigation, and performing the navigation itself based on the route, arguments and nav controller
+
+
 # ViewModel and Events
 `NavigationEvent.kt`
 ```kotlin
@@ -214,3 +230,7 @@ class MainActivity : ComponentActivity() {
     }
 
 ```
+
+This is all very basic and bare-bones. But it seemed like a reasonable solution to my problem was begging to be over-engineered. So i gave it my all. 
+
+✌️
