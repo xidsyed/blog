@@ -5,14 +5,14 @@ tags:
   - Android
   - JetpackCompose
 aliases: 
-summary: 
+summary: My (probably over-engineered) solution for navigation events in jetpack compose for nested navigation graphs, following the UDF principle
 image:
-  src: "posts/attachments/russian_dolls.jpg"
-  alt: "Nested Russian Dolls"
+  src: posts/attachments/russian_dolls.jpg
+  alt: Nested Russian Dolls
 ---
 
 # What
-> My (probably over-engineered) solution for navigation events in jetpack compose, following the UDF principles.
+> My (probably over-engineered) solution for navigation events in jetpack compose for nested navigation graphs, following the UDF principle
 
 Instead of handling the navigation directly in the UI, by passing `NavControllers` around to child composables so they can invoke navigate on the controller, a cleaner and more idiomatic and a Unidirectional-Data-Flow-y way of doing that would be using viewmodel events.
 
