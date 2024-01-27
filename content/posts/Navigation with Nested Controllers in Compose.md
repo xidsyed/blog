@@ -233,4 +233,4 @@ class MainActivity : ComponentActivity() {
 
 This is all very basic and bare-bones. But it seemed like a reasonable solution to my problem was begging to be over-engineered. So i gave it my all. 
 
-✌️
+✌️✌️✌️
