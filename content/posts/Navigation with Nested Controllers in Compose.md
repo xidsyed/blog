@@ -1,12 +1,14 @@
 ---
-title: "Untitled"
+title: Navigation with Nested Controllers in Compose
 date: 2024-01-27
-tags: [Untagged]
-aliases:
-summary: ""
+tags:
+  - Android
+  - JetpackCompose
+aliases: 
+summary: 
 image:
-  src: ""
-  alt: ""
+  src: "posts/attachments/russian_dolls.jpg"
+  alt: "Nested Russian Dolls"
 ---
 
 # ViewModel and Events
