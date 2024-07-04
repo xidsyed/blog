@@ -51,14 +51,14 @@ As it stands, we are still uncontested survivors in the universe. AGI poses no t
 
 1.  Autonomy (When we don’t have to ‘prompt’ it to execute it’s intelligence)
     
-2.  Outsmartability (Inevitible as its neural network and processing capabilities become much better than ours)
+2.  Outsmart-ability (Inevitable as its neural network and processing capabilities exceed ours)
     
 3.  Motivations (Alignment and goals for given autonomy)
     
 
 Once those three are fulfilled its ✌️🙂✌️. For us, that is. AGI on the other hand lives on and prospers. Probably much different from it’s ancestors.
 
-If we are here without a reason, then there is no reason we won’t just go away
+**If we are here without a reason, then there is no reason we won’t just go away**
 
 `< insert callout to spirituality on appeal to emotion fallacy >`
   
@@ -66,4 +66,5 @@ What happens when it gets all 3 and is completely free in the very literal sense
   
 Find out in the next installment of `<insert blog name by the most woke tech-bro ever>`!!  
 
-[☠️ Initiate HAGIT☠️](https://www.youtube.com/watch?v=OkS69MKXL1c)
+[☠️ INITIATE HAGIT BUTTON☠️](https://www.youtube.com/watch?v=OkS69MKXL1c)
+DO NOT PRESS 👆

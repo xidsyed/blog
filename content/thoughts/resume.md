@@ -6,14 +6,13 @@ aliases:
 - 
 summary: ""
 image:
-  src: ""
+  src: "thoughts/attachments/preview_resume.png"
   alt: ""
 ---
 
-Resume PDF
-
-## My Projects :
-- Imgurinator
-- Nobody
+[Twitter](https://twitter.com/syedintator)
+[Linkedin](https://www.linkedin.com/feed/)
+[Github](https://github.com/xidsyed/)
+[Download Resume](thoughts/attachments/syed_android_developer_resume.pdf)
 
 
