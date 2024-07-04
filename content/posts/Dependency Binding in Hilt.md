@@ -1,5 +1,5 @@
 ---
-title: Demystifying Scoping in Dagger Hilt
+title: Dependency Binding in Hilt
 date: 2023-12-18
 tags:
   - Android
@@ -10,6 +10,7 @@ image:
   src: ""
   alt: ""
 ---
+# hi,
 
 Dependency injection (DI) is a crucial aspect of modern software development, facilitating modularity, testability, and maintainability in your codebase. In Kotlin, Dagger stands out as a powerful tool for implementing DI efficiently. However, understanding the nuances between annotations like `@Inject`, `@Provides`, and `@Binds`, as well as comprehending the roles of modules, components, and dependency containers, can be daunting. Fear not! In this guide, we'll demystify these concepts and equip you with the knowledge to wield Dagger like a pro.
 

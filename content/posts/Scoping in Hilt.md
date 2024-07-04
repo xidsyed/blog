@@ -1,21 +1,14 @@
 ---
-title: Untitled
+title: Scoping in Hilt
 date: 2023-12-18
 tags:
   - Android
 aliases: 
-summary: How to follow UDF best practices sending one-time navigation events from the viewmodel, in jetpack compose using nested navgraphs.
+summary: What is a scope?
 image:
   src: ""
   alt: ""
 ---
-https://github.com/xidsyed/HiltScopeExample.git
-
-Talk about how scoping in hilt is a little confusing. Show how simple example clears the confusion. 
-
-Also how not matching the scope annotation with the component is not allowed
-
-
 ### Injecting dependencies without defining a Module
 With Hilt, injecting a simple dependency like `MyDependency` into a `ViewModel` is straightforward and doesn't require defining a `@Module`. By annotating the constructor of `MyDependency` with `@Inject`, Hilt can automatically provide it. Then, you can use the `@HiltViewModel` annotation for your `ViewModel` and inject `MyDependency` directly into its constructor using `@Inject`. This eliminates the need for additional configuration, allowing Hilt to manage the dependency injection seamlessly. Here's a quick example:
 
@@ -55,3 +48,7 @@ Hilt automatically creates and destroys instances of generated component classes
 
 
 ![|725](https://i.imgur.com/T8JSl1y.png)
+
+
+I wrote a simple example to demonstrate how scoping works in hilt down below: 
+https://github.com/xidsyed/HiltScopeExample.git

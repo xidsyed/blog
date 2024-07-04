@@ -1,5 +1,5 @@
 ---
-title: Untitled
+title: Components in Hilt
 date: 2023-12-18
 tags:
   - Android
@@ -9,7 +9,7 @@ image:
   src: ""
   alt: ""
 ---
-### What are components in Hilt?
+# Hi, What are components in Hilt?
 
 Components in Hilt are like the backstage crew of your Android app. They're tied to Android framework objects for their lifecycle and scoping. Picture this: you can install modules in these components using `@Module` and `@InstallIn`.
 

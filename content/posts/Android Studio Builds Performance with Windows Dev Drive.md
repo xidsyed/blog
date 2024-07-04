@@ -1,5 +1,5 @@
 ---
-title: Untitled
+title: Android Studio Builds Performance with Windows Dev Drive
 date: 2023-11-20
 tags:
   - "#Android"
@@ -39,9 +39,9 @@ Staying true to  my cause I decided to look up the improvements in Android speci
 The plan was plain and simple to build 3-4 builds on the C:/ Drive, then copy the project over to D:/ Drive and replicate the test. Finally compare the results. Simple enough right? :)
 
 I used the following repositories to build and test them
-1. https://github.com/xidsyed/imgurinator
-2. https://github.com/yozhik/AndroidStudioBenchmark
-3. https://github.com/android/nowinandroid
+1. [Imgurinator](https://github.com/xidsyed/imgurinator)
+2. [Android Studio Benchmark](https://github.com/yozhik/AndroidStudioBenchmark)
+3. [Now In Android](https://github.com/android/nowinandroid)
 
 First one is an old project of mine where i use the [Imgur API](https://apidocs.imgur.com/) to create basic Imgur app
 
@@ -118,7 +118,7 @@ After several hours, almost an entire day of trying to run an accurate benchmark
 
 Calculating the averages and the improvement percentages of said averages gave the following interesting (or arbitrary)results.
 
-![[posts/attachments/dev_drive_final_benchmark_improvement_results.png | 500]]
+![[posts/attachments/dev_drive_final_benchmark_improvement_results.png]]
 
 
 What can we learn from this?
@@ -127,7 +127,7 @@ IDK.
 
 We can certainly put it onto a pretty google sheets bar chart like so :
 
-![[posts/attachments/dev_drive_bar_chart.png |600]]
+![[posts/attachments/dev_drive_bar_chart.png]]
 
 
 Overall we see some improvements, but nothing groundbreaking. 
