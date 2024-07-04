@@ -10,9 +10,6 @@ image:
   alt: ""
 ---
 
-[Twitter](https://twitter.com/syedintator)
-[Linkedin](https://www.linkedin.com/feed/)
-[Github](https://github.com/xidsyed/)
-[Download Resume](thoughts/attachments/syed_android_developer_resume.pdf)
+[Download Resume](attachments/syed_android_developer_resume.pdf)
 
 
