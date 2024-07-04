@@ -11,6 +11,7 @@ image:
   src: posts/attachments/article_preview_dev_drive.png
   alt: Android X Dev Drive
 ---
+![[posts/attachments/article_preview_dev_drive.png]]
 
 Performance has always been a huge pain point for android developers, both in apps and in the IDE. Its is not an uncommon for developers to clone an android project, and wait for 5-10 mins for Android Studio to download and index all the libraries, and let Gradle build the project for the  first time, only to have Android Studio screw up out of nowhere🙂. Time to invalidate the caches and restart, all over again.
 
