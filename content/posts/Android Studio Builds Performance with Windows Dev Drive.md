@@ -8,7 +8,7 @@ tags:
 aliases: 
 summary: Switch your android projects to dev drive now! Or should you?
 image:
-  src: posts/attachments/article_preview_dev_drive.jpg
+  src: posts/attachments/article_preview_dev_drive.png
   alt: Android X Dev Drive
 ---
 
