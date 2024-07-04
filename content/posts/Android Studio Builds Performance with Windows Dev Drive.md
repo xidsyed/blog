@@ -139,7 +139,7 @@ For now I'll Go back to learning jetpack compose and looking for a job.
 
 The advertised [performance mode](https://learn.microsoft.com/en-us/defender-endpoint/microsoft-defender-endpoint-antivirus-performance-mode) of  Dev Drive, doesn't work nearly as good as it should. It hinders build times significantly and you should always add exclusions for your project directories
 
-In all the above cases the repo directory was excluded from Defender real-time antivirus scanning, a commonly deployed configuration. Testing was not done with the new performance mode of Defender antivirus also announced at Build.[Microsoft themselves](https://devblogs.microsoft.com/engineering-at-microsoft/dev-drive-and-copy-on-write-for-developer-performance/#:~:text=(Methodology%20note%3A%20In%20all%20cases%20the%20repo%20directory%20was%20excluded%20from%20Defender%20real%2Dtime%20antivirus%20scanning%2C%20a%20commonly%20deployed%20configuration.%20Testing%20was%20not%20done%20with%20the%20new%20performance%20mode%20of%20Defender%20antivirus%20also%20announced%20at%20Build.) in their testing didn't use their own performance mode.
+In all the above cases the repo directory was excluded from Defender real-time antivirus scanning, a commonly deployed configuration. Testing was not done with the new performance mode of Defender antivirus also announced at Build.[Microsoft themselves](https://devblogs.microsoft.com/engineering-at-microsoft/dev-drive-and-copy-on-write-for-developer-performance/#:~:text=In%20all%20cases%20the%20repo%20directory%20was%20excluded%20from%20Defender%20real%2Dtime%20antivirus%20scanning%2C%20a%20commonly%20deployed%20configuration.) in their testing didn't use their own performance mode.
 
 
 

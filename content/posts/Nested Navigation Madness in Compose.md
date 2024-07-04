@@ -1,5 +1,5 @@
 ---
-title: Navigation with Nested Controllers in Compose
+title: Nested Navigation Madness in Compose
 date: 2024-01-27
 tags:
   - Android
