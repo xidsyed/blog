@@ -1,5 +1,5 @@
 ---
-title: Untitled
+title: Introduction - Grab a Dagger By The Hilt
 date: 2023-12-18
 tags:
   - Android
@@ -13,10 +13,18 @@ image:
 Dagger and dependency injection are quite complex, but with hilt they don't have to be. Following is a series giving you a brief overview of various key topics in Dagger Hilt
 
 [[posts/Introduction - Grab a Dagger By The Hilt|Introduction - Grab a Dagger By The Hilt]]
+
 [[posts/Components in Hilt|Components in Hilt]]
+
 [[posts/Dependency Binding in Hilt|Dependency Binding in Hilt]]
+
 [[posts/Demystifying Scoping in Dagger Hilt|Demystifying Scoping in Dagger Hilt]]
+
 [[posts/Scoping in Hilt|Scoping in Hilt]]
+
+
+---
+
 
 Dependency injection (DI) is a fundamental concept in software development, promoting loose coupling and facilitating testability and maintainability. Dagger Hilt, a part of the Dagger family, offers a streamlined approach to DI in Android development. In this article, we'll explore how to harness the power of Dagger Hilt to inject dependencies effortlessly into your Android projects.
 
