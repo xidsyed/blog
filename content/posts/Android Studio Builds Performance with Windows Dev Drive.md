@@ -8,10 +8,10 @@ tags:
 aliases: 
 summary: Switch your android projects to dev drive now! Or should you?
 image:
-  src: posts/attachments/article_preview_dev_drive.png
+  src: posts/attachments/article_preview_dev_drive.jpg
   alt: Android X Dev Drive
 ---
-![[posts/attachments/article_preview_dev_drive.png]]
+![[posts/attachments/article_preview_dev_drive.jpg]]
 
 Performance has always been a huge pain point for android developers, both in apps and in the IDE. Its is not an uncommon for developers to clone an android project, and wait for 5-10 mins for Android Studio to download and index all the libraries, and let Gradle build the project for the  first time, only to have Android Studio screw up out of nowhere🙂. Time to invalidate the caches and restart, all over again.
 
@@ -119,7 +119,7 @@ After several hours, almost an entire day of trying to run an accurate benchmark
 
 Calculating the averages and the improvement percentages of said averages gave the following interesting (or arbitrary)results.
 
-![[posts/attachments/dev_drive_final_benchmark_improvement_results.png]]
+![[posts/attachments/dev_drive_final_benchmark_improvement_results.png|400]]
 
 
 What can we learn from this?
