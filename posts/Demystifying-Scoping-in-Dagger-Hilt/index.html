@@ -1,0 +1,223 @@
+<!doctype html><html lang=en><head><script async src="https://www.googletagmanager.com/gtag/js?id=G-4BCKZFF869"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-4BCKZFF869",{anonymize_ip:!1})}</script><meta charset=utf-8><meta name=description content="Scopes? Components?? Bindings??? Huh!"><meta property="og:title" content="Demystifying Scoping in Dagger Hilt"><meta property="og:type" content="website"><meta property="og:url" content="https://acqcc.blog/posts/Demystifying-Scoping-in-Dagger-Hilt/"><meta property="og:image" content="https://acqcc.blog/icon.png"><meta property="og:description" content="Scopes? Components?? Bindings??? Huh!"><meta property="og:site_name" content="A Curios Quest For Code and Clarity"><meta name=twitter:card content="summary"><meta name=twitter:title content="Demystifying Scoping in Dagger Hilt"><meta name=twitter:description content="Scopes? Components?? Bindings??? Huh!"><meta name=twitter:image content="https://acqcc.blog/icon.png"><meta name=twitter:site content="syedintator"><title>Demystifying Scoping in Dagger Hilt</title><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/png href=https://acqcc.blog//icon.png><link href=https://acqcc.blog/styles.1c9208fa658974fa2da04dd45a74d372.min.css rel=stylesheet><link href=https://acqcc.blog/styles/_light_syntax.85308810e581dc31491133a9d792ce46.min.css rel=stylesheet id=theme-link><script src=https://acqcc.blog/js/darkmode.2931aae0054ecfbf6bf4c663fcbaad61.min.js></script>
+<script src=https://acqcc.blog/js/util.f4895772b1442dff6b4c0dd30dc2d0d2.min.js></script>
+<link rel=preload href=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css as=style onload='this.onload=null,this.rel="stylesheet"' integrity=sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js integrity=sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js integrity=sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/copy-tex.min.js integrity=sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/npm/@floating-ui/core@1.2.1></script>
+<script src=https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.2.1></script>
+<script defer src=https://acqcc.blog/js/popover.1af0a6b2be82f44e7d69f1d6ada7cbf8.min.js></script>
+<script defer src=https://acqcc.blog/js/code-title.ce4a43f09239a9efb48fee342e8ef2df.min.js></script>
+<script defer src=https://acqcc.blog/js/clipboard.2913da76d3cb21c5deaa4bae7da38c9f.min.js></script>
+<script defer src=https://acqcc.blog/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js></script>
+<script>const SEARCH_ENABLED=!1,LATEX_ENABLED=!0,PRODUCTION=!0,BASE_URL="https://acqcc.blog/",fetchData=Promise.all([fetch("https://acqcc.blog/indices/linkIndex.2f36f1106d97ca492a7987b344f62661.min.json").then(e=>e.json()).then(e=>({index:e.index,links:e.links})),fetch("https://acqcc.blog/indices/contentIndex.f3efac4da993580c0cb5fe2746e6fa0e.min.json").then(e=>e.json())]).then(([{index:e,links:t},n])=>({index:e,links:t,content:n})),render=()=>{const e=new URL(BASE_URL),t=e.pathname,n=window.location.pathname,s=t==n;addCopyButtons(),addTitleToCodeBlocks(),addCollapsibleCallouts(),initPopover("https://acqcc.blog",!0);const o=document.getElementById("footer");if(o){const e=document.getElementById("graph-container");if(!e)return requestAnimationFrame(render);e.textContent="";const t=s&&!0;drawGraph("https://acqcc.blog",t,[{"/moc":"#4388cc"}],t?{centerForce:100,depth:-1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.5,linkDistance:.8,opacityScale:1,repelForce:.2,scale:1}:{centerForce:1,depth:1,enableDrag:!0,enableLegend:!1,enableZoom:!0,fontSize:.7,linkDistance:1,opacityScale:3,repelForce:2,scale:1.2})}var i=document.getElementsByClassName("mermaid");i.length>0&&import("https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs").then(e=>{e.default.init()});const a=document.querySelectorAll("a");for(link of a)link.className.includes("root-title")&&link.addEventListener("click",clickHandler,{once:!0})},init=(e=document)=>{addCopyButtons(),addTitleToCodeBlocks(),renderMathInElement(e.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1}],macros:{'’':"'"},throwOnError:!1})}</script><script type=module>
+    import { attachSPARouting } from "https:\/\/acqcc.blog\/js\/router.d6fe6bd821db9ea97f9aeefae814d8e7.min.js"
+    attachSPARouting(init, render)
+  </script></head><body><div id=search-container><div id=search-space><input autocomplete=off id=search-bar name=search type=text aria-label=Search placeholder='🦉 "Search whatever (Ctrl + K)"'><div id=results-container></div></div></div><script src=https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin=anonymous defer></script>
+<script defer src=https://acqcc.blog/js/full-text-search.e6e2e0c213187ca0c703d6e2c7a77fcd.min.js></script><div class=singlePage><header><h1 id=page-title><a class=root-title href=https://acqcc.blog/>ACQCC</a></h1><div class=spacer></div><div id=search-icon><p>Search</p><svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg></div><div class=darkmode><input class=toggle id=darkmode-toggle type=checkbox tabindex=-1>
+<label id=toggle-label-light for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="dayIcon" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35"><title>Light Mode</title><path d="M6 17.5C6 16.672 5.328 16 4.5 16h-3C.672 16 0 16.672.0 17.5S.672 19 1.5 19h3C5.328 19 6 18.328 6 17.5zM7.5 26c-.414.0-.789.168-1.061.439l-2 2C4.168 28.711 4 29.086 4 29.5 4 30.328 4.671 31 5.5 31c.414.0.789-.168 1.06-.44l2-2C8.832 28.289 9 27.914 9 27.5 9 26.672 8.329 26 7.5 26zm10-20C18.329 6 19 5.328 19 4.5v-3C19 .672 18.329.0 17.5.0S16 .672 16 1.5v3C16 5.328 16.671 6 17.5 6zm10 3c.414.0.789-.168 1.06-.439l2-2C30.832 6.289 31 5.914 31 5.5 31 4.672 30.329 4 29.5 4c-.414.0-.789.168-1.061.44l-2 2C26.168 6.711 26 7.086 26 7.5 26 8.328 26.671 9 27.5 9zM6.439 8.561C6.711 8.832 7.086 9 7.5 9 8.328 9 9 8.328 9 7.5c0-.414-.168-.789-.439-1.061l-2-2C6.289 4.168 5.914 4 5.5 4 4.672 4 4 4.672 4 5.5c0 .414.168.789.439 1.06l2 2.001zM33.5 16h-3c-.828.0-1.5.672-1.5 1.5s.672 1.5 1.5 1.5h3c.828.0 1.5-.672 1.5-1.5S34.328 16 33.5 16zM28.561 26.439C28.289 26.168 27.914 26 27.5 26c-.828.0-1.5.672-1.5 1.5.0.414.168.789.439 1.06l2 2C28.711 30.832 29.086 31 29.5 31c.828.0 1.5-.672 1.5-1.5.0-.414-.168-.789-.439-1.061l-2-2zM17.5 29c-.829.0-1.5.672-1.5 1.5v3c0 .828.671 1.5 1.5 1.5s1.5-.672 1.5-1.5v-3C19 29.672 18.329 29 17.5 29zm0-22C11.71 7 7 11.71 7 17.5S11.71 28 17.5 28 28 23.29 28 17.5 23.29 7 17.5 7zm0 18c-4.136.0-7.5-3.364-7.5-7.5s3.364-7.5 7.5-7.5 7.5 3.364 7.5 7.5S21.636 25 17.5 25z"/></svg></label><label id=toggle-label-dark for=darkmode-toggle tabindex=-1><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="nightIcon" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'"><title>Dark Mode</title><path d="M96.76 66.458c-.853-.852-2.15-1.064-3.23-.534-6.063 2.991-12.858 4.571-19.655 4.571C62.022 70.495 50.88 65.88 42.5 57.5 29.043 44.043 25.658 23.536 34.076 6.47c.532-1.08.318-2.379-.534-3.23-.851-.852-2.15-1.064-3.23-.534-4.918 2.427-9.375 5.619-13.246 9.491-9.447 9.447-14.65 22.008-14.65 35.369.0 13.36 5.203 25.921 14.65 35.368s22.008 14.65 35.368 14.65c13.361.0 25.921-5.203 35.369-14.65 3.872-3.871 7.064-8.328 9.491-13.246C97.826 68.608 97.611 67.309 96.76 66.458z"/></svg></label></div></header><article><h1>Demystifying Scoping in Dagger Hilt</h1><p class=meta>Last updated
+Dec 18, 2023</p><ul class=tags><li><a href=https://acqcc.blog/tags/Android/>Android</a></li></ul><aside class=mainTOC><details><summary>Table of Contents</summary><nav id=TableOfContents><ol><li><a href=#understanding-default-scoping-in-dagger-hilt>Understanding Default Scoping in Dagger Hilt</a></li><li><a href=#scoped-bindings-making-magic-happen>Scoped Bindings: Making Magic Happen</a></li><li><a href=#compatibility-is-key-matching-scopes-and-components>Compatibility is Key: Matching Scopes and Components</a></li><li><a href=#components-vs-bindings-clarifying-the-scope-game>Components vs. Bindings: Clarifying the Scope Game</a></li><li><a href=#conclusion-becoming-a-scoping-sorcerer>Conclusion: Becoming a Scoping Sorcerer</a></li></ol></nav></details></aside><a href=#demystifying-scoping-in-dagger-hilt><h1 id=demystifying-scoping-in-dagger-hilt><span class=hanchor arialabel=Anchor></span>Demystifying Scoping in Dagger Hilt</h1></a><p>So, you&rsquo;ve decided to dive into the enchanting world of Dagger Hilt, eh? Buckle up, because we&rsquo;re about to unravel the mysteries of scoping in this magical realm. Picture yourself as a wizard casting spells to control the lifespan of your objects. Intrigued? Let&rsquo;s get started!</p><a href=#understanding-default-scoping-in-dagger-hilt><h2 id=understanding-default-scoping-in-dagger-hilt><span class=hanchor arialabel=Anchor></span>Understanding Default Scoping in Dagger Hilt</h2></a><p>First things first, let&rsquo;s talk about default scoping in Hilt. When you slap an <code>@Inject</code> on your constructor without any <code>@Module</code> or <code>@InstallIn</code>, Hilt just goes, &ldquo;Eh, let&rsquo;s make this unscoped.&rdquo; What does that mean? Well, every time you summon that binding, Hilt conjures up a brand-spanking-new instance just for you. Think of it like ordering a fresh batch of cookies every time you crave a snack.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-kotlin data-lang=kotlin><span class=line><span class=cl><span class=c1>//TweetRepository.kt
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=k>class</span> <span class=nc>TweetRepository</span> <span class=nd>@Inject</span> <span class=k>constructor</span><span class=p>(){</span>  
+</span></span><span class=line><span class=cl>    <span class=k>fun</span> <span class=nf>getTweets</span><span class=p>()</span> <span class=p>{</span>  
+</span></span><span class=line><span class=cl>        <span class=n>Log</span><span class=p>.</span><span class=n>d</span><span class=p>(</span><span class=n>TAG</span><span class=p>,</span> <span class=s2>&#34;Tweets Received&#34;</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>    <span class=p>}</span>  
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>//TweetApp
+</span></span></span><span class=line><span class=cl><span class=c1></span><span class=nd>@HiltAndroidApp</span>  
+</span></span><span class=line><span class=cl><span class=k>class</span> <span class=nc>TweetApp</span> <span class=p>:</span> <span class=n>Application</span><span class=p>()</span> <span class=p>{</span>  
+</span></span><span class=line><span class=cl>    <span class=nd>@Inject</span>  
+</span></span><span class=line><span class=cl>    <span class=k>lateinit</span> <span class=k>var</span> <span class=py>tweetRepository</span><span class=p>:</span> <span class=n>TweetRepository</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>    <span class=k>override</span> <span class=k>fun</span> <span class=nf>onCreate</span><span class=p>()</span> <span class=p>{</span>  
+</span></span><span class=line><span class=cl>        <span class=k>super</span><span class=p>.</span><span class=n>onCreate</span><span class=p>()</span>  
+</span></span><span class=line><span class=cl>        <span class=n>tweetRepository</span><span class=p>.</span><span class=n>getTweets</span><span class=p>()</span>  
+</span></span><span class=line><span class=cl>    <span class=p>}</span>  
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><p>In this snippet, every time <code>getTweets()</code> is called, a new <code>TweetRepository</code> instance is whipped up faster than you can say &ldquo;Abracadabra!&rdquo;</p><a href=#scoped-bindings-making-magic-happen><h2 id=scoped-bindings-making-magic-happen><span class=hanchor arialabel=Anchor></span>Scoped Bindings: Making Magic Happen</h2></a><p>Now, let&rsquo;s talk about the real deal – scoped bindings. Hilt lets you sprinkle some magic dust and scope your bindings to a specific component. Imagine casting a spell to ensure that only one instance of a binding is summoned per component instance. That&rsquo;s what scoping does!</p><p>Take a gander at this table showcasing the scope annotations for each component:</p><p><img src=https://i.imgur.com/cZJN8eb.png width=auto alt="Hilt Scopes"></p><p>For instance, if you decide to scope your <code>AnalyticsAdapter</code> to the <code>ActivityComponent</code> using <code>@ActivityScoped</code>, Hilt makes sure you get the same instance of <code>AnalyticsAdapter</code> throughout the entire life of your activity. It&rsquo;s like having a loyal sidekick that sticks with you through thick and thin!</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-kotlin data-lang=kotlin><span class=line><span class=cl><span class=nd>@ActivityScoped</span>  
+</span></span><span class=line><span class=cl><span class=k>class</span> <span class=nc>AnalyticsAdapter</span> <span class=nd>@Inject</span> <span class=k>constructor</span><span class=p>(</span><span class=k>private</span> <span class=k>val</span> <span class=py>service</span><span class=p>:</span> <span class=n>AnalyticsService</span><span class=p>)</span> <span class=p>{</span> <span class=o>..</span><span class=p>.</span> <span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><a href=#compatibility-is-key-matching-scopes-and-components><h2 id=compatibility-is-key-matching-scopes-and-components><span class=hanchor arialabel=Anchor></span>Compatibility is Key: Matching Scopes and Components</h2></a><p>Now, here&rsquo;s where things get a bit tricky. Can a component contain bindings with different scopes from itself? Nope, not in this magical realm. If you try to mix and match scopes like a reckless sorcerer, Dagger Hilt will give you a swift kick in the code with an <code>IncompatiblyScopedBindings</code> error.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-kotlin data-lang=kotlin><span class=line><span class=cl><span class=nd>@Module</span>  
+</span></span><span class=line><span class=cl><span class=nd>@InstallIn</span><span class=p>(</span><span class=n>ActivityRetainedComponent</span><span class=o>::</span><span class=k>class</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl><span class=k>object</span> <span class=nc>MainModule</span> <span class=p>{</span>  
+</span></span><span class=line><span class=cl>    <span class=nd>@Provides</span>  
+</span></span><span class=line><span class=cl>    <span class=nd>@ActivityScoped</span> <span class=c1>// Oops, error incoming!  
+</span></span></span><span class=line><span class=cl><span class=c1></span>    <span class=k>fun</span> <span class=nf>getScopedBinding</span><span class=p>():</span> <span class=n>StateA</span> <span class=p>=</span> <span class=n>StateA</span><span class=p>(</span><span class=o>++</span><span class=n>counterA</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl>  
+</span></span><span class=line><span class=cl>    <span class=nd>@Provides</span>  
+</span></span><span class=line><span class=cl>    <span class=k>fun</span> <span class=nf>getUnscopedBinding</span><span class=p>()</span> <span class=p>:</span> <span class=n>StateB</span> <span class=p>=</span> <span class=n>StateB</span><span class=p>(</span><span class=o>++</span><span class=n>counterB</span><span class=p>)</span>  
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><p>You see, trying to scope <code>ActivityScoped</code> bindings within an <code>ActivityRetainedComponent</code> is like trying to fit a square peg into a round hole – it just won&rsquo;t work!</p><a href=#components-vs-bindings-clarifying-the-scope-game><h2 id=components-vs-bindings-clarifying-the-scope-game><span class=hanchor arialabel=Anchor></span>Components vs. Bindings: Clarifying the Scope Game</h2></a><p>Alright, let&rsquo;s address the elephant in the room. Do components provide scope to the bindings? Nah, not really. Components are like the stage where all the magic happens, but they don&rsquo;t decide the scope of your bindings. You can have both scoped and unscoped bindings coexisting within a component.</p><p>Scoped bindings are like the VIPs of the party – they get special treatment and stick around throughout the component&rsquo;s lifetime. Meanwhile, unscoped bindings are like the regular folks, popping in and out as needed.</p><p>Warning, They can be quite memory intensive cuz they stick around till the components life-time whether they are needed or not. so use them sparingly.</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-kotlin data-lang=kotlin><span class=line><span class=cl><span class=k>var</span> <span class=py>counterA</span> <span class=p>=</span> <span class=m>0</span>
+</span></span><span class=line><span class=cl><span class=k>var</span> <span class=py>counterB</span> <span class=p>=</span> <span class=m>0</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>data</span> <span class=k>class</span> <span class=nc>StateA</span> <span class=p>(</span><span class=k>val</span> <span class=py>value</span> <span class=p>:</span> <span class=n>Int</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=k>data</span> <span class=k>class</span> <span class=nc>StateB</span> <span class=p>(</span><span class=k>val</span> <span class=py>value</span> <span class=p>:</span> <span class=n>Int</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nd>@Module</span>
+</span></span><span class=line><span class=cl><span class=nd>@InstallIn</span><span class=p>(</span><span class=n>ActivityRetainedComponent</span><span class=o>::</span><span class=k>class</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=k>object</span> <span class=nc>MainModule</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=nd>@Provides</span>
+</span></span><span class=line><span class=cl>    <span class=nd>@ActivityRetainedScoped</span>
+</span></span><span class=line><span class=cl>    <span class=k>fun</span> <span class=nf>getScopedBinding</span><span class=p>():</span> <span class=n>StateA</span> <span class=p>=</span> <span class=n>StateA</span><span class=p>(</span><span class=o>++</span><span class=n>counterA</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nd>@Provides</span>
+</span></span><span class=line><span class=cl>    <span class=k>fun</span> <span class=nf>getUnscopedBinding</span><span class=p>()</span> <span class=p>:</span> <span class=n>StateB</span> <span class=p>=</span> <span class=n>StateB</span><span class=p>(</span><span class=o>++</span><span class=n>counterB</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><p><code>MainActivity.kt</code></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span><span class=lnt>22
+</span><span class=lnt>23
+</span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
+</span><span class=lnt>29
+</span><span class=lnt>30
+</span><span class=lnt>31
+</span><span class=lnt>32
+</span><span class=lnt>33
+</span><span class=lnt>34
+</span><span class=lnt>35
+</span><span class=lnt>36
+</span><span class=lnt>37
+</span><span class=lnt>38
+</span><span class=lnt>39
+</span><span class=lnt>40
+</span><span class=lnt>41
+</span><span class=lnt>42
+</span><span class=lnt>43
+</span><span class=lnt>44
+</span><span class=lnt>45
+</span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
+</span><span class=lnt>50
+</span><span class=lnt>51
+</span><span class=lnt>52
+</span><span class=lnt>53
+</span><span class=lnt>54
+</span><span class=lnt>55
+</span><span class=lnt>56
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-kotlin data-lang=kotlin><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nd>@AndroidEntryPoint</span>
+</span></span><span class=line><span class=cl><span class=k>class</span> <span class=nc>MainActivity</span> <span class=p>:</span> <span class=n>ComponentActivity</span><span class=p>()</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nd>@Inject</span>
+</span></span><span class=line><span class=cl>    <span class=k>lateinit</span> <span class=k>var</span> <span class=py>stateA</span><span class=p>:</span> <span class=n>StateA</span>
+</span></span><span class=line><span class=cl>    <span class=nd>@Inject</span>
+</span></span><span class=line><span class=cl>    <span class=k>lateinit</span> <span class=k>var</span> <span class=py>stateB</span><span class=p>:</span> <span class=n>StateB</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=k>override</span> <span class=k>fun</span> <span class=nf>onCreate</span><span class=p>(</span><span class=n>savedInstanceState</span><span class=p>:</span> <span class=n>Bundle</span><span class=p>?)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=k>super</span><span class=p>.</span><span class=n>onCreate</span><span class=p>(</span><span class=n>savedInstanceState</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=n>setContent</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=n>XtractinatorTheme</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                <span class=c1>// A surface container using the &#39;background&#39; color from the theme
+</span></span></span><span class=line><span class=cl><span class=c1></span>                <span class=n>Surface</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>                    <span class=n>modifier</span> <span class=p>=</span> <span class=n>Modifier</span><span class=p>.</span><span class=n>fillMaxSize</span><span class=p>(),</span> <span class=n>color</span> <span class=p>=</span> <span class=n>MaterialTheme</span><span class=p>.</span><span class=n>colorScheme</span><span class=p>.</span><span class=n>background</span>
+</span></span><span class=line><span class=cl>                <span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                    <span class=k>val</span> <span class=py>valueA</span><span class=p>:</span> <span class=n>Int</span> <span class=k>by</span> <span class=n>remember</span> <span class=p>{</span> <span class=n>mutableStateOf</span><span class=p>(</span><span class=n>stateA</span><span class=p>.</span><span class=n>value</span><span class=p>)</span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>                    <span class=k>val</span> <span class=py>valueB</span><span class=p>:</span> <span class=n>Int</span> <span class=k>by</span> <span class=n>remember</span> <span class=p>{</span> <span class=n>mutableStateOf</span><span class=p>(</span><span class=n>stateB</span><span class=p>.</span><span class=n>value</span><span class=p>)</span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>                    <span class=n>ShowState</span><span class=p>(</span><span class=n>valueA</span><span class=p>,</span> <span class=n>valueB</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nd>@Composable</span>
+</span></span><span class=line><span class=cl><span class=k>fun</span> <span class=nf>ShowState</span><span class=p>(</span><span class=n>valueA</span><span class=p>:</span> <span class=n>Int</span><span class=p>,</span> <span class=n>valueB</span><span class=p>:</span> <span class=n>Int</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=k>var</span> <span class=py>showStateVal</span> <span class=k>by</span> <span class=n>rememberSaveable</span> <span class=p>{</span> <span class=n>mutableStateOf</span><span class=p>(</span><span class=k>false</span><span class=p>)</span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=n>Column</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>        <span class=n>modifier</span> <span class=p>=</span> <span class=n>Modifier</span><span class=p>.</span><span class=n>fillMaxSize</span><span class=p>(),</span>
+</span></span><span class=line><span class=cl>        <span class=n>verticalArrangement</span> <span class=p>=</span> <span class=n>Arrangement</span><span class=p>.</span><span class=n>spacedBy</span><span class=p>(</span><span class=m>32.</span><span class=n>dp</span><span class=p>,</span> <span class=n>Alignment</span><span class=p>.</span><span class=n>CenterVertically</span><span class=p>),</span>
+</span></span><span class=line><span class=cl>        <span class=n>horizontalAlignment</span> <span class=p>=</span> <span class=n>Alignment</span><span class=p>.</span><span class=n>CenterHorizontally</span>
+</span></span><span class=line><span class=cl>    <span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=n>Box</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>            <span class=n>modifier</span> <span class=p>=</span> <span class=n>Modifier</span>
+</span></span><span class=line><span class=cl>                <span class=p>.</span><span class=n>height</span><span class=p>(</span><span class=m>64.</span><span class=n>dp</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>                <span class=p>.</span><span class=n>fillMaxWidth</span><span class=p>()</span>
+</span></span><span class=line><span class=cl>        <span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=k>if</span> <span class=p>(</span><span class=n>showStateVal</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                <span class=n>Text</span><span class=p>(</span><span class=n>text</span> <span class=p>=</span>
+</span></span><span class=line><span class=cl>                        <span class=s2>&#34;State A Value (Scoped)   : </span><span class=si>$valueA</span><span class=s2> </span><span class=se>\n</span><span class=s2>&#34;</span><span class=p>+</span>
+</span></span><span class=line><span class=cl>                        <span class=s2>&#34;State B Value (Unscoped) : </span><span class=si>$valueB</span><span class=s2>&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>                    <span class=n>maxLines</span> <span class=p>=</span> <span class=m>2</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>                    <span class=n>modifier</span> <span class=p>=</span> <span class=n>Modifier</span><span class=p>.</span><span class=n>align</span><span class=p>(</span><span class=n>Alignment</span><span class=p>.</span><span class=n>Center</span><span class=p>))</span>
+</span></span><span class=line><span class=cl>            <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=n>Button</span><span class=p>(</span>
+</span></span><span class=line><span class=cl>            <span class=n>onClick</span> <span class=p>=</span> <span class=p>{</span> <span class=n>showStateVal</span> <span class=p>=</span> <span class=p>!</span><span class=n>showStateVal</span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=k>val</span> <span class=py>string</span> <span class=p>=</span> <span class=k>if</span> <span class=p>(</span><span class=n>showStateVal</span><span class=p>)</span> <span class=s2>&#34;hide&#34;</span> <span class=k>else</span> <span class=s2>&#34;show&#34;</span>
+</span></span><span class=line><span class=cl>            <span class=n>Text</span><span class=p>(</span><span class=n>string</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span></code></pre></td></tr></table></div></div><p>In the above example , everytime the screen rotates, the unscoped binding is recreated, whereas the scoped binding is scoped to the <code>ActivityRetainedComponent</code> and stays the same</p><p>In the snippet above, every time your screen rotates, the unscoped binding (<code>StateB</code>) gets a makeover, while the scoped binding (<code>StateA</code>) remains as steadfast as a loyal companion.</p><a href=#conclusion-becoming-a-scoping-sorcerer><h2 id=conclusion-becoming-a-scoping-sorcerer><span class=hanchor arialabel=Anchor></span>Conclusion: Becoming a Scoping Sorcerer</h2></a><p>And there you have it, fellow wizards! You&rsquo;re now equipped with the knowledge to wield scoping powers in Dagger Hilt like a seasoned sorcerer. Remember, with great power comes great responsibility – so use your scoping wisely, and may your objects live long and prosper! Until next time, keep coding and conjuring those magical bindings! ✨🔮</p></article><hr><div class=page-end id=footer><div class=backlinks-container><h3>🕸️ Backlinks</h3><ul class=backlinks><li><a href=/posts/Introduction-Grab-a-Dagger-By-The-Hilt/ data-ctx="Demystifying Scoping in Dagger Hilt" data-src=/posts/Introduction-Grab-a-Dagger-By-The-Hilt class=internal-link>Untitled</a></li></ul></div><div><script src=https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI=" crossorigin=anonymous></script><h3>📜 The Seeker's Map</h3><div id=graph-container></div><style>:root{--g-node:var(--secondary);--g-node-active:var(--primary);--g-node-inactive:var(--visited);--g-link:var(--outlinegray);--g-link-active:#5a7282}</style><script src=https://acqcc.blog/js/graph.94bd651faa3fc02c5b0f4b90a67d701f.js></script></div></div><div id=contact_buttons><footer><ul><li><a href=https://acqcc.blog/>Home</a></li><li><a href=https://twitter.com/syedintator>Twitter</a></li><li><a href=https://github.com/xidsyed>GitHub</a></li><li><a href=https://www.linkedin.com/in/syed-mohsin-8a3918161/>Linkedin</a></li><li><a href=/thoughts/resume/>Resume</a></li></ul></footer></div></div></body></html>
