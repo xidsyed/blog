@@ -10,6 +10,6 @@ image:
   alt: ""
 ---
 
-[Download Resume](attachments/syed_android_developer_resume.pdf)
+[Download Resume](thoughts/attachments/syed_android_developer_resume.pdf)
 
 
