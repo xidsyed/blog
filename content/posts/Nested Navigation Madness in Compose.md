@@ -11,7 +11,9 @@ image:
   alt: Nested Russian Dolls
 ---
 
-# What
+
+![[posts/attachments/russian_dolls.jpg]]
+# Hi, What is this?
 > My (probably over-engineered) solution for navigation events in jetpack compose for nested navigation graphs, following the UDF principle
 
 Instead of handling the navigation directly in the UI, by passing `NavControllers` around to child composables so they can invoke navigate on the controller, a cleaner and more idiomatic and a Unidirectional-Data-Flow-y way of doing that would be using viewmodel events.
