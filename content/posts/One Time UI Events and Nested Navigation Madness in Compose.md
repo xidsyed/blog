@@ -14,6 +14,7 @@ image:
 
 # Hi, What is this?
 > My (probably over-engineered) solution for navigation events in jetpack compose for nested navigation graphs, ~~following principles of UDF~~ in pursuit having the ViewModel be the single-source-of-truth for the View. 
+
 To have the viewmodel be the single source of truth for the UI, it is the viewmodel's responsibility to notify the UI when a one-time-event such as navigation or an error dialogue has to be handled. However since often the UI is often the sole initiator of such events (such as a button click to go to the next screen), trying to stay true to this principle can be quite challenging, without passing around a bunch of lambdas with different `navcontrollers` for  navigation to all the individual components that could trigger the navigation logic
 
 
