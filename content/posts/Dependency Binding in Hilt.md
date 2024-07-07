@@ -1,6 +1,6 @@
 ---
 title: Dependency Binding in Hilt
-date: 2023-12-18
+date: 2023-12-02
 tags:
   - Android
   - "#DaggerHiltIntroduction"

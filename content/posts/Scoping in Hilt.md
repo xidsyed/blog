@@ -1,6 +1,6 @@
 ---
 title: Scoping in Hilt
-date: 2023-12-18
+date: 2023-12-09
 tags:
   - Android
 aliases: 

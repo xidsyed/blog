@@ -1,6 +1,6 @@
 ---
 title: Demystifying Scoping in Dagger Hilt
-date: 2023-12-18
+date: 2023-12-04
 tags:
   - Android
 aliases: 
@@ -47,7 +47,7 @@ Now, let's talk about the real deal – scoped bindings. Hilt lets you sprinkle 
 
 Take a gander at this table showcasing the scope annotations for each component:
 
-![Hilt Scopes](https://i.imgur.com/cZJN8eb.png)
+![Hilt Scopes|475](https://i.imgur.com/cZJN8eb.png)
 
 For instance, if you decide to scope your `AnalyticsAdapter` to the `ActivityComponent` using `@ActivityScoped`, Hilt makes sure you get the same instance of `AnalyticsAdapter` throughout the entire life of your activity. It's like having a loyal sidekick that sticks with you through thick and thin!
 

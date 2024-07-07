@@ -1,6 +1,6 @@
 ---
 title: Introduction - Grab a Dagger By The Hilt
-date: 2023-12-18
+date: 2023-11-27
 tags:
   - Android
 aliases: 
@@ -18,9 +18,10 @@ Dagger and dependency injection are quite complex, but with hilt they don't have
 
 [[posts/Dependency Binding in Hilt|Dependency Binding in Hilt]]
 
+[[posts/Scoping in Hilt|Scoping in Hilt]]
+
 [[posts/Demystifying Scoping in Dagger Hilt|Demystifying Scoping in Dagger Hilt]]
 
-[[posts/Scoping in Hilt|Scoping in Hilt]]
 
 
 ---

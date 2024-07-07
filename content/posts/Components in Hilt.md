@@ -1,6 +1,6 @@
 ---
 title: Components in Hilt
-date: 2023-12-18
+date: 2023-12-01
 tags:
   - Android
 aliases: 
@@ -44,16 +44,4 @@ Now, let's talk about lifetimes. Hilt's got your back here too. It automatically
 
 ### Conclusion
 
-There you have it, folks! Components in Dagger Hilt are like the backstage VIPs, ensuring everything runs smoothly in your Android app. From scoping to lifecycle management, they've got it covered. Stay tuned for the next article, where we'll dive into the fascinating world of scoping in Dagger Hilt.
-
-### Outro: What's Next?
-
-Curious to learn more about scoping in Dagger Hilt? Don't worry, we've got you covered. Dive deeper into the magic of scoping in the next installment of our series. Click [here](#) to explore further!
-
----
-
-This integration provides a comprehensive overview of components, modules, and the dependency container in Dagger Hilt, setting the stage for further exploration.
-
-### What's Next?
-
-Any discussion about components in would be incomplete without talking about scoping in Dagger Hilt? Don't worry, we've got you covered. Dive deeper into the magic of scoping in the next installment of the series. Read on [[posts/Scoping in Hilt|Scoping in Hilt]] to explore further!
+There you have it, folks! Components in Dagger Hilt ensure everything runs smoothly in your Android app. From scoping to lifecycle management, they've got it covered. Stay tuned for the next article, where we'll dive into [[posts/Dependency Binding in Hilt|dependency binding]] and how it works, and the different ways to do it.
