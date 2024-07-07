@@ -6,11 +6,15 @@ tags:
 aliases: 
 summary: The very get started basics of Hilt in Android
 image:
-  src: ""
+  src: "posts/attachments/article_preview_dagger_hilt_series.jpg"
   alt: ""
 ---
 # Hi
-Dagger and dependency injection are quite complex, but with hilt they don't have to be. Following is a series giving you a brief overview of various key topics in Dagger Hilt
+Dagger and dependency injection are quite complex, but with hilt they don't have to be. Following is a series giving you a brief overview of various key topics in Dagger Hilt. Keep in mind this is NOT A DEEP DIVE. Just a quick overview of the frequently used dagger hilt concepts
+
+
+![[posts/attachments/article_preview_dagger_hilt_series.jpg]]
+
 
 [[posts/Introduction - Grab a Dagger By The Hilt|Introduction - Grab a Dagger By The Hilt]]
 
@@ -25,6 +29,8 @@ Dagger and dependency injection are quite complex, but with hilt they don't have
 
 
 ---
+
+
 
 
 Dependency injection (DI) is a fundamental concept in software development, promoting loose coupling and facilitating testability and maintainability. Dagger Hilt, a part of the Dagger family, offers a streamlined approach to DI in Android development. In this article, we'll explore how to harness the power of Dagger Hilt to inject dependencies effortlessly into your Android projects.
