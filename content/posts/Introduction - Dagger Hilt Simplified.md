@@ -1,22 +1,26 @@
 ---
-title: Introduction - Grab a Dagger By The Hilt
+title: Introduction - Dagger Hilt Simplified
 date: 2023-11-27
 tags:
   - Android
 aliases: 
-summary: The very get started basics of Hilt in Android
+summary: Grab that dagger by the hilt! Get started with the basics of Hilt in Android.
 image:
   src: "posts/attachments/article_preview_dagger_hilt_series.jpg"
   alt: ""
 ---
-# Hi
-Dagger and dependency injection are quite complex, but with hilt they don't have to be. Following is a series giving you a brief overview of various key topics in Dagger Hilt. Keep in mind this is NOT A DEEP DIVE. Just a quick overview of the frequently used dagger hilt concepts
+# Hi Developer 👋
+
+
+Dagger and dependency injection are quite complex, but with hilt they don't have to be. Following is a series giving you a brief overview of various key topics in Dagger Hilt. 
+
+Keep in mind this is **not a deep dive**. Just a quick series covering the most frequently used and fundamental dagger hilt concepts. With that said if you have always wanted to be **The Dumbledore of Dependency Injection with Digger Hilt**, you must read this series from beginning to end. Without further ado, this is, Dagger Hilt Simplified.  
 
 
 ![[posts/attachments/article_preview_dagger_hilt_series.jpg]]
 
 
-[[posts/Introduction - Grab a Dagger By The Hilt|Introduction - Grab a Dagger By The Hilt]]
+[[posts/Introduction - Dagger Hilt Simplified|Introduction - Dagger Hilt Simplified]]
 
 [[posts/Components in Hilt|Components in Hilt]]
 
@@ -118,6 +122,11 @@ class MainActivity : AppCompatActivity() {
 
 By annotating our `Activity` with `@AndroidEntryPoint` and declaring a field with `@Inject`, Dagger Hilt handles the dependency injection for us.
 
-## Conclusion
+## Up Next
 
 Dagger Hilt simplifies dependency injection in Android development, allowing for cleaner and more maintainable code. By following the steps outlined in this guide, you'll be well-equipped to leverage Dagger Hilt's capabilities in your projects. Happy injecting!
+
+Read on about [[posts/Components in Hilt|Components in Hilt]] to learn more about the different components used in dagger to scope dependencies to
+
+
+

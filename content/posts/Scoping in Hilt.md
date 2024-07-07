@@ -6,7 +6,7 @@ tags:
 aliases: 
 summary: What is a scope?
 image:
-  src: ""
+  src: "posts/attachments/article_preview_dagger_hilt_series.jpg"
   alt: ""
 ---
 ### Injecting dependencies without defining a Module
@@ -52,3 +52,9 @@ Hilt automatically creates and destroys instances of generated component classes
 
 I wrote a simple example to demonstrate how scoping works in hilt down below: 
 https://github.com/xidsyed/HiltScopeExample.git
+
+
+# Up Next
+*That's fine and all* you say, in italics for some reason. *But why do we scope when we have components, and can we scope across different components? What happens if you do?* you wonder. 
+
+Sigh, Here you go: [[posts/Demystifying Scoping in Dagger Hilt|Demystifying Scoping in Dagger Hilt]]

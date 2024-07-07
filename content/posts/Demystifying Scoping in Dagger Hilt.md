@@ -6,7 +6,7 @@ tags:
 aliases: 
 summary: Scopes? Components?? Bindings??? Huh!
 image:
-  src: ""
+  src: "posts/attachments/article_preview_dagger_hilt_series.jpg"
   alt: ""
 ---
 
@@ -173,3 +173,11 @@ In the snippet above, every time your screen rotates, the unscoped binding (`Sta
 ## Conclusion: Becoming a Scoping Sorcerer
 
 And there you have it, fellow wizards! You're now equipped with the knowledge to wield scoping powers in Dagger Hilt like a seasoned sorcerer. Remember, with great power comes great responsibility – so use your scoping wisely, and may your objects live long and prosper! Until next time, keep coding and conjuring those magical bindings! ✨🔮
+
+After completing this series you may now consider yourself **The Dumbeldore of Dagger Hilt**. You'd be greatly mistaken of course, but you are free to do as you please but please remember what the wise man once said.
+
+>To be the Dumbledore of anything is no easy task, one must read the documentation and suffer greatly 
+>
+– Wise Man 
+
+Hf. Enjoy. 

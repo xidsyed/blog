@@ -7,10 +7,10 @@ tags:
 aliases: 
 summary: Scopes? Components?? Bindings??? Huh!
 image:
-  src: ""
+  src: "posts/attachments/article_preview_dagger_hilt_series.jpg"
   alt: ""
 ---
-# hi,
+# Hi,
 
 Dependency injection (DI) is a crucial aspect of modern software development, facilitating modularity, testability, and maintainability in your codebase. In Kotlin, Dagger stands out as a powerful tool for implementing DI efficiently. However, understanding the nuances between annotations like `@Inject`, `@Provides`, and `@Binds`, as well as comprehending the roles of modules, components, and dependency containers, can be daunting. Fear not! In this guide, we'll demystify these concepts and equip you with the knowledge to wield Dagger like a pro.
 
@@ -89,4 +89,9 @@ Here, `AppComponent` aggregates `AppModule` and `NetworkModule`, defining the sc
 
 In summary, mastering Dagger's intricacies empowers you to wield DI with finesse, sculpting robust and maintainable codebases with ease. With `@Inject`, `@Provides`, and `@Binds` at your disposal, alongside a profound understanding of modules, components, and dependency containers, you're primed to conquer the realm of dependency injection in Kotlin like a true champion.
 
-Now, armed with this knowledge, venture forth, and let Dagger be your guiding light in the labyrinth of software development!
+# Up next
+Now, armed with this knowledge, venture forth, and let Dagger be your guiding light in the labyrinth of software development! How do you [[posts/Scoping in Hilt|scope dependencies to components]]? 
+
+Funny you asked. I was thinking the exact same thing. 
+
+Read On!

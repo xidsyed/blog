@@ -6,7 +6,7 @@ tags:
 aliases: 
 summary: Components in Android Simplified
 image:
-  src: ""
+  src: "posts/attachments/article_preview_dagger_hilt_series.jpg"
   alt: ""
 ---
 # Hi, What are components in Hilt?
@@ -42,6 +42,6 @@ Now, let's talk about lifetimes. Hilt's got your back here too. It automatically
 
 ![Component Lifetimes](https://i.imgur.com/T8JSl1y.png)
 
-### Conclusion
+### Up Next
 
 There you have it, folks! Components in Dagger Hilt ensure everything runs smoothly in your Android app. From scoping to lifecycle management, they've got it covered. Stay tuned for the next article, where we'll dive into [[posts/Dependency Binding in Hilt|dependency binding]] and how it works, and the different ways to do it.
