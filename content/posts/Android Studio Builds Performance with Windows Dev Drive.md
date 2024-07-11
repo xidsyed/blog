@@ -18,9 +18,6 @@ Performance has always been a huge pain point for android developers, both in ap
 So I was pretty excited when I found out that Microsoft has recently released a [new feature](https://devblogs.microsoft.com/visualstudio/devdrive/) specifically for us developers that helps address this very problem. At least that's what i thought at the time, three days ago. I still do. Mostly. But the initial optimism and curiosity has mostly withered away. 
 
 
-![[posts/attachments/dev_drive_microsoft_performance_graph.jpeg]]
-
-
 So instead of telling you about all the [different ways gradle caches](https://proandroiddev.com/gradle-cache-your-builds-best-friend-4970ad32420e) the intermediate products of the build process, or where the [different caches are located and what happens when you clear them](https://www.aldebaran.com/developer-center/articles/Sync-gradle-invalidate-cache-restart/index.html#synchronise-your-gradle-files-and-get-some-insight-about-the-android-studio-cache) , or how there is a lot of [conflicting information on the internet](https://stackoverflow.com/questions/23025433/how-to-clear-gradle-cache) on what works and when it doesn't, or [how Dev Drive works](https://devblogs.microsoft.com/engineering-at-microsoft/dev-drive-and-copy-on-write-for-developer-performance/) and what specifically would you need to do to see the greatest benefits, because I can't, because i haven't been able to fully understand it myself. I'm just gonna tell you about the *little* experiment I did to find the answer.
 
 Before I tell you about what Dev Drive is and its promised benefits :
@@ -32,6 +29,9 @@ Let me first give you the super short ELI5 overview of what gradle is and what i
 Other than being annoying, throwing unhelpful and obscure error messages, happening to be the least fun, most boring, slowest thing about android development (shoutout live preview), and overall being the bane of my existence as an android developer, it is actually quite the nifty little software. It takes a lot of heavy lifting out of writing and distributing java applications like compiling, packaging, dependency management and testing to name a few.  It also does a lot of other cool things, like offer the ability to utilize plugins to make it easy for developers to customize their build processes to their needs, or perform custom specific tasks during the build process.
 
 One of these really cool things it does is Incremental builds and caching which is relevant to our mission today. Microsoft has recently announced a new feature called Dev Drive which is supposed to enhance these particular workflows related to building, cloning and compiling projects for which they have published some very impressive numbers on their blogs. Most of these numbers however belong to C# and .NET related projects, with one **Gradle Build of the Spring Framework** showing a 24% improvement. They have claimed general improvements of about 25% around disk bound operations like cloning, building, copying files etc.
+
+![[posts/attachments/dev_drive_microsoft_performance_graph.jpeg]]
+
 
 All of this was sounding better and better, so I immediately went over to YouTube and searched 'Dev Drive' Performance Improvements, and sure enough there were a handful of videos showing faster build times, some up to 75%!
 
@@ -152,6 +152,8 @@ or just use a ~~mac~~ windows-on-arm.
 
 ### Authors Note :
 
-This experiment was originally far more elaborate (embarrassingly so), since its been **a while** that i compiled the results, and didn't write down any of the details, I have forgotten most of them, hence the half-assed writing of the article : /.  
+The aim of this article is not to make the claim that Dev Drive's advertised capabilities are false. I have only tried benchmarking a handful number of projects. God knows I'm no benchmarking guru. I encourage and appreciate all the feedback. Feel free to reach out on my socials below.
 
-*Note to future self:  In time, you will forget, so write it down.*
+This experiment was originally far more elaborate (embarrassingly so), since its been **a while** that i compiled the results, and didn't write down any of the details, I have forgotten most of them, hence the half-assed writing of the article : /.  I couldn't include most of the details about evolution of gradle caches, and how to clear them. Various articles explain how incremental builds work in gradle and build caches, and configuration caches etc. These would have been of great use to me while i was working on my 'built from scratch' anonymous social media a year lol. The CI/CD pipeline I had designed, was painfully slow. From what I've learnt, that could all have been improved significantly.
+
+Oh well. Note to future self.  *In time, you will forget, so write it down.*
