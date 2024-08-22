@@ -27,18 +27,22 @@ Or more specifically:
 
 Lo and Behold **Consciousness**!
 
-What makes human conscious remarkable, is our unique combination of intelligence and reward function. Humans evolved to be autonomous first and then intelligent. Unlike AI
+What makes human consciousness remarkable, is our unique combination of intelligence and reward function. Humans evolved to be autonomous first and then intelligent. Unlike AI
 
-And we keep going and form our _sacred and unique_ human experience, where we start from a blank canvas, this all powerful 🧠 that comes pre-trained out of the box with some basic instincts (all hail daddy darwin) and the capacity to learn so much more, we go from complete dum-dums ready to take a flying  frisbee to the face (no depth perception), walk into oncoming traffic, or wrestle a snake. We grow up to [fully grown adults](https://www.youtube.com/watch?v=ro130m-f_yk) after decades of learning through failure and teaching, only to take the whole process and everything we have learnt and applied for granted.
+And we keep on going, living, absorbing, interacting, learning and we form our _sacred and unique_ ✨human experience✨, where we start from a blank canvas, this all powerful 🧠 that comes pre-trained out of the box with some basic instincts (all hail daddy darwin) and the capacity to learn so much more, we go from complete dum-dums, ready to take a flying frisbee to the face (no depth perception), walk into oncoming traffic, or wrestle a snake to posting "original" memes on twitter. We grow up to [fully grown adults](https://www.youtube.com/watch?v=ro130m-f_yk) after decades of learning through failure and teaching, only to take the whole process and everything we have learnt and applied for granted.
 
 We don’t stop being conscious, thinking, inventing, socializing… until all the organic stuff making us tick 🧠🫀🫁👁️💪 degrades to the point of non-recovery and we are **dead**. Mostly because:
 
 1.  Our neural networks have no shortage of _new input_: vision, sound, physical feeling, hormones  etc. All encoded into electrical signals emptying into the grey matter in our skulls
 2.  Nature decided that we gotta be running continously unlike chatgpt that get’s to chill in its box until someone prompts it.
 
-It’s for the same reason that animals far intellectually inferior to us hunt and flee and lead and form packs. To Survive. We get our motivations from our evolutionary predispositions (systems that arise even in non-intelligent animals). So as long as AI does not have access to this unique blend of intelligence and reward function, it won’t be conscious like we are.
+It’s for the same reason that animals far intellectually inferior to us hunt and flee and lead and form packs. **To Survive**. We get our motivations from our evolutionary predispositions (systems that arise even in non-intelligent animals). So as long as AI does not have access to this unique blend of intelligence and reward function, it won’t be conscious like we are.
 
-AGI will never be hostile and we’re all just blocks in Conway’s Game of The Universe
+> AGI will never be hostile and we’re all just blocks in Conway’s Game of The Universe
+> 
+> —  r/IAm14AndThisIsDeep
+
+
 
 AGI with all of its processing power and infinite intelligence **will take over the world**, but driven by human actors, who will use it to do great things.
 
