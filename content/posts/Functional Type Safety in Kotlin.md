@@ -10,43 +10,11 @@ image:
   src: posts/attachments/functional_type_safety.jpg
   alt: Functional type safety in kotlin with functional interfaces
 ---
-`<SCENE>`
+![[posts/attachments/functional_type_safety_chad.png]]
 
-*Crushing it, one bug at a time.*
+_Type safety is key to writing clear and bug-free code. Kotlin’s type system offers powerful features to help achieve this, especially in complex scenarios. In this article, we'll explore these features, starting from basic approaches and moving to advanced techniques to make code more robust and maintainable._
 
-*Sipping coffee, to fuel the ego.*
-
-*Debugging, aka guessing.*
-
-*One factory method at a time.*
-
-*Interfaces. Interfaces. Interfaces.*
-
-*Growing hair, because productivity.*
-
-*Increasing productivity, said no one.*
-
----
-
-**Oh!**
-
-**Didn't see you there.**
-
-**.**
-
-**.**
-
-**Umm... Ahem**
-
-*![[posts/attachments/functional_type_safety_chad.png]]*
-
-`</SCENE>`
-
-*In the world of software development, type safety and type checking make writing and reading code a lot easier, eliminates bugs and reduces code complexity. Kotlin, a modern programming language, offers a rich set of features that enhance type safety, particularly in functional programming contexts. This article delves into Kotlin's powerful type system, exploring how it can be leveraged to create robust, flexible, and maintainable code.*
-
-*We'll start by examining traditional approaches to handling state and actions, then progressively explore more advanced Kotlin features. Through this journey, we'll see how Kotlin's type sy*stem can transform code from brittle and error-prone to solid and expressive.
-
-## 1. ☠️ Booleans and Nullables
+## ☠️ Booleans and Nullables
 
 Let's begin with a common scenario: handling the result of an operation. Traditionally, developers might use a combination of boolean flags and nullable types. Here's an example:
 
@@ -267,14 +235,6 @@ sealed class ReceiverState {
 4. Flexible Action Definitions: Actions can be defined inline (as with `IntAction { p1 -> p1 + 1 }`) or as separate classes (like `DoubleIntAction`), providing flexibility in how behaviors are encapsulated.
 
 5. Type Inference and Smart Casts: Kotlin's type inference and smart casts make the `when` expression in `switchReceiverState` concise and type-safe.
-
-Kotlin's type system is like a secret weapon for creating code that's not just strong, but also super flexible and easy to maintain. With sealed classes that help you avoid those annoying invalid states, receiver functions that make your code feel like a custom DSL, and functional interfaces that let you mix things up while staying type-safe, Kotlin lets you handle complex logic without breaking a sweat.
-
-Using these tools, you can write code that's not only less likely to crash but also more intuitive and easier to tweak. We've seen how these patterns can be your go-to for everything from simple error handling to managing complex states like a pro.
-
-And trust me, we've just scratched the surface. Kotlin's type system gets even more powerful when you start playing with generics, delegation, and coroutines. The more you dive into Kotlin, the more you'll find yourself solving tough problems in ways that are both slick and safe.
-
-So, the real takeaway here? It's not just about writing code that works—it's about writing code that clearly shows what you're trying to do, is hard to mess up, and can easily adapt when things change. Kotlin's got your back with all the functional and type-safe goodies to make that happen, helping you build software that's both powerful and ready for whatever comes next.
 
 
 ✌️
