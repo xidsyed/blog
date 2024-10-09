@@ -9,10 +9,10 @@ image:
   src: thoughts/attachments/preview_resume.png
   alt: ""
 ---
-# Hi 🦉
+# 🦉 Hi,
 
-Hey there! Thanks for checking out my resume and my [[_index|blog]]. I'm mostly working on [Android](/tags/android) projects these days, and the occasional [leetcode question](/dsa) at times.
+Thanks for checking out my resume and my [[_index|blog]]. I'm mostly working on [Android](/tags/android) projects these days, and the occasional [leetcode question](/dsa) at times.
 
 I’m always looking to improve, and I’d love to hear your thoughts. Feel free to drop me a message on [Twitter](https://x.com/syedinator) or [LinkedIn](https://www.linkedin.com/in/syedmohsin01). 
 
-### [Download Resume](https://drive.google.com/file/d/1AyPlkYymNRXf2F3aoObofHqlhkd3cNBJ/view?usp=sharing)
+### [Updated Resume 👈](https://docs.google.com/document/d/1njT4_acbXpUxqNIZ26Ef6wS65FUcEy1qufECfP832Gk)
