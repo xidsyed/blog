@@ -1,0 +1,54 @@
+---
+title: 236. Lowest Common Ancestor of a Binary Tree
+date: 2022-07-10T00:00:00.000Z
+description: "Solution to the problem: 236. Lowest Common Ancestor of a Binary Tree"
+tags:
+  - dsadeck
+  - binarytrees
+---
+
+## Problem Statement
+
+Pattern:
+
+---
+
+## Solution
+
+```java
+public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+	if(root == null) return null;
+
+	if(root == p || root == q) return root;
+
+	TreeNode left = lowestCommonAncestor(root.left, p, q);
+	TreeNode right = lowestCommonAncestor(root.right, p, q);
+
+	// not found
+	if(left == null && right == null) return null;
+
+	// both found
+	if(left != null && right != null) return root;
+
+	// right found
+	if(left == null) return right;
+
+	// left found
+	else return left;
+}
+```
+
+### Notes
+
+- even if both nodes are in the same bloodline, the ancestor (first one) gets returned
+
+Concise version
+
+```java
+public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    if (root == null || root == p || root == q) return root;
+    TreeNode left = lowestCommonAncestor(root.left, p, q);
+    TreeNode right = lowestCommonAncestor(root.right, p, q);
+    return left == null ? right : right == null ? left : root;
+}
+```

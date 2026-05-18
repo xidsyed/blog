@@ -1,0 +1,52 @@
+---
+title: 230. Kth Smallest Element in a BST
+date: 2022-07-21T00:00:00.000Z
+description: "Solution to the problem: 230. Kth Smallest Element in a BST"
+tags:
+  - dsadeck
+  - bst
+---
+
+## Problem Statement
+
+Pattern:
+
+---
+
+## Iterative Inorder Traversal Solution
+
+```java
+public int kthSmallest(TreeNode root, int k) {
+	Deque<TreeNode> stack = new LinkedList<>();
+	while(root!=null || !stack.isEmpty()) {
+		if(root != null) {
+			stack.push(root);
+			root = root.left;
+		} else {
+			root = stack.pop();
+			if(k-- == 1) return root.val;
+			root = root.right;
+		}
+	}
+	return -1;
+}
+```
+
+## Recursive Inorder Traversal Solution
+
+```java
+    int count = 0;
+    public int kthSmallest (TreeNode root, int k){
+        if(root == null) return -1;
+
+        int left = kthSmallest(root.left, k);
+        if(++count == k) return root.val;
+        int right = kthSmallest(root.right, k);
+
+        return (left != -1) ? left : right;
+    }
+```
+
+## Morris Traversal Solution
+
+#todoleetcode

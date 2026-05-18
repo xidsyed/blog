@@ -1,0 +1,37 @@
+---
+title: 1448. Count Good Nodes in Binary Tree
+date: 2022-07-15T00:00:00.000Z
+description: "Solution to the problem: 1448. Count Good Nodes in Binary Tree"
+tags:
+  - dsadeck
+  - binarytrees
+---
+
+## Problem Statement
+
+Pattern:
+
+---
+
+## Solution
+
+```java
+public int helper(TreeNode root, int max) {
+	int count = 0;
+
+	if(root == null) return count;
+	if(root.val >= max) count++;
+
+	count += helper(root.left, Math.max(max, root.val));
+	count += helper(root.right, Math.max(max, root.val));
+	return count;
+}
+
+public int goodNodes(TreeNode root) {
+	return helper(root, root.val);
+}
+```
+
+### Notes
+
+-

@@ -1,0 +1,42 @@
+---
+title: Parenthesis Checker
+date: 2022-08-21T00:00:00.000Z
+description: "Solution to the problem: Parenthesis Checker"
+tags:
+  - dsadeck
+  - strings
+  - stacks
+---
+
+## Problem Statement
+
+Pattern:
+
+---
+
+## Solution
+
+```java
+static boolean ispar(String str) {
+	// add your code here
+	Deque<Character> stack = new LinkedList<>();
+	for (char ch : str.toCharArray()) {
+		if (ch == '{' || ch == '(' || ch == '[') stack.push(ch);
+		else {
+			if (stack.isEmpty()) return false;
+			char pop = stack.pop();
+			if (ch == '}' && pop != '{') return false;
+			if (ch == ')' && pop != '(') return false;
+			if (ch == ']' && pop != '[') return false;
+		}
+	}
+	return stack.isEmpty();
+}
+```
+
+TC : $O(n)$
+SC : $O(n)$
+
+### Notes
+
+-

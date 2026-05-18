@@ -1,0 +1,40 @@
+---
+title: 989. Add to Array-Form of Integer
+date: 2022-06-07T00:00:00.000Z
+description: "Solution to the problem: 989. Add to Array-Form of Integer"
+tags:
+  - dsadeck
+  - arrays
+---
+
+## Problem Statement
+
+Pattern:
+
+---
+
+## Solution
+
+```java
+public List<Integer> addToArrayForm(int[] num, int k) {
+	List<Integer> result = new LinkedList<>();
+	for (int i = num.length - 1; i >= 0; i--) {
+		// add element to k
+		k = k + num[i];
+		// insert last digit to beginning of result
+		result.add(0, k % 10);
+		// update k
+		k /= 10;
+	}
+	// copy remaining k
+	while (k > 0) {
+		result.add(0, k % 10);
+		k /= 10;
+	}
+	return result;
+}
+```
+
+### Notes
+
+-

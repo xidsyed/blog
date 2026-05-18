@@ -1,0 +1,34 @@
+---
+title: 566. Reshape the Matrix
+date: 2022-06-09T00:00:00.000Z
+description: "Solution to the problem: 566. Reshape the Matrix"
+tags:
+  - dsadeck
+  - arrays
+---
+
+## Problem Statement
+
+Pattern:
+
+---
+
+## Solution
+
+```java
+public int[][] matrixReshape(int[][] mat, int r, int c) {
+	int n = mat.length, m = mat[0].length;
+	int[][] result = new int[r][c];
+	// if invalid array return original
+	if (r * c != n * m) return mat;
+
+	for (int i = 0; i < r*c; i++)
+		result[i/c][i%c] = mat[i/m][i%m];
+	return result;
+}
+```
+
+### Notes
+
+- total no. of elements is `r*c`
+  - row and column are given by dividing and mod by no. of columns

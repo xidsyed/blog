@@ -1,0 +1,36 @@
+{
+  "name": "acqcc-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "migrate": "node scripts/migrate-content.mjs",
+    "build": "astro build",
+    "check": "astro check",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "deploy": "bun run build && wrangler deploy",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.2",
+    "astro": "^6.3.4"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "eslint-plugin-astro": "^1.7.0",
+    "globals": "^17.6.0",
+    "gray-matter": "^4.0.3",
+    "prettier": "^3.8.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.3",
+    "wrangler": "^4.92.0"
+  }
+}

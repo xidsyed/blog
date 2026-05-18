@@ -1,0 +1,45 @@
+---
+title: 38. Count and Say
+date: 2022-08-10T00:00:00.000Z
+description: "Solution to the problem: 38. Count and Say"
+tags:
+  - dsadeck
+  - strings
+---
+
+## Problem Statement
+
+Pattern:
+
+---
+
+## Solution
+
+```java
+public String countAndSay(int n) {
+	if (n <= 1) return "1";
+	String num = countAndSay(n - 1);
+
+	int count = 0;
+	char curr = num.charAt(0);
+	StringBuilder sb = new StringBuilder();
+
+	for (char ch : num.toCharArray()) {
+		if (ch == curr) count++;
+		else {
+			sb.append(count).append(curr) ;
+			count = 1; curr = ch;
+		}
+	}
+	sb.append(count).append(curr);
+	return sb.toString();
+}
+
+```
+
+TC :
+SC :
+
+### Notes
+
+-

@@ -1,0 +1,77 @@
+---
+title: 645. Set Mismatch
+date: 2022-05-13T00:00:00.000Z
+description: "Solution to the problem: 645. Set Mismatch"
+tags:
+  - easy
+  - arrays
+  - completed
+  - dsadeck
+---
+
+## Problem Statement
+
+Pattern: [Pattern 1-n range array](/pattern-1-n-range-array/)
+
+---
+
+## Solution
+
+```java
+class Solution {
+	// self-freq-arr approach
+	public int[] findErrorNums(int[] nums) {
+		// mark value index -ve subsequently finding duplicate
+		int duplicateNum = -1, missingNum = 0;
+		for (int num : nums) {
+			int val = Math.abs(num);
+			if (nums[val - 1] < 0) {
+				// -ve -> duplicate number
+				duplicateNum = val;
+			} else {
+				// num -> -ve
+				nums[val - 1] *= -1;
+			}
+		}
+
+		// missing number's index has not been marked -ve
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] > 0) missingNum = i + 1;
+		}
+
+		return new int[]{duplicateNum, missingNum};
+	}
+
+	// swap
+	public void swap(int[] x, int a, int b) {
+		int t = x[a];
+		x[a] = x[b];
+		x[b] = t;
+	}
+
+	// cycle sort approach
+	public int[] findErrorNums2(int[] nums) {
+		int missing = -1, repeated = -1;
+
+		for (int i = 0; i < nums.length; i++)
+			while (
+				nums[i] != i + 1 &&         // el is correct
+					nums[i] != nums[nums[i] - 1]  // el is not same as swap el
+			) {
+				swap(nums, i, nums[i] - 1);
+			}
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] != i + 1) {
+				missing = i + 1;
+				repeated = nums[i];
+			}
+		}
+
+		return new int[]{repeated, missing};
+	}
+}
+```
+
+### Notes
+
+- Both approaches are easy and return the ans

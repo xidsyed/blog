@@ -1,0 +1,44 @@
+---
+title: 2293. Min Max Game
+date: 2022-06-05T00:00:00.000Z
+description: "Solution to the problem: 2293. Min Max Game"
+tags:
+  - dsadeck
+  - arrays
+  - contest
+  - binarytrees
+---
+
+## Problem Statement
+
+[Min Max Game - LeetCode Contest](https://leetcode.com/contest/weekly-contest-296/problems/min-max-game/)
+
+Pattern:
+
+---
+
+## Solution
+
+```java
+    public int minMaxGame(int[] nums) {
+        // exit condition
+        if(nums.length == 1) return nums[0];
+        // create temp array
+        int[] newNums = new int[nums.length/2];
+        // replace nums arr
+        for (int i = 0; i < nums.length / 2; i++) {
+            // even vs odd
+            if((i&1) == 0) {
+                newNums[i] = Math.min(nums[2*i], nums[2*i+1]);
+            } else {
+                newNums[i] = Math.max(nums[2*i], nums[2*i+1]);
+            }
+        }
+        return minMaxGame(newNums);
+    }
+```
+
+### Notes
+
+- Do what the problem says
+- Recursion was a little tricky as a beginner

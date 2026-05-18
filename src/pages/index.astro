@@ -1,0 +1,94 @@
+---
+import { Image } from "astro:assets";
+import { getCollection, getEntry, render } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import EntryList from "../components/EntryList.astro";
+import profileImage from "../assets/content/me 2.webp";
+
+const home = await getEntry("pages", "home");
+const latest = (await getCollection("blog"))
+  .sort((a, b) => Number(b.data.date ?? 0) - Number(a.data.date ?? 0))
+  .slice(0, 4);
+const { Content } = home ? await render(home) : { Content: undefined };
+---
+
+<BaseLayout>
+  <section class="home-hero">
+    <div>
+      <p class="kicker">Personal site</p>
+      <h1 class="section-title">sidequests</h1>
+      <p class="lede">
+        Software notes, project writeups, and the occasional thought that
+        escaped Obsidian.
+      </p>
+      <div class="hero-actions">
+        <a href="/blog/">Read the blog</a>
+        <a href="/leetcode/">Browse LeetCode</a>
+      </div>
+    </div>
+    <Image src={profileImage} alt="Syed Mohsin" width={180} height={180} />
+  </section>
+
+  {
+    Content && (
+      <section class="prose home-copy">
+        <Content />
+      </section>
+    )
+  }
+
+  <section aria-labelledby="latest-heading">
+    <h2 id="latest-heading" class="section-heading">Latest writing</h2>
+    <EntryList entries={latest} basePath="/blog" />
+  </section>
+</BaseLayout>
+
+<style>
+  .home-hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 2rem;
+    align-items: center;
+    padding: 4rem 0 2rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .home-hero :global(img) {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+  }
+
+  .hero-actions a {
+    padding: 0.62rem 0.9rem;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    color: var(--text);
+    text-decoration: none;
+    background: var(--surface);
+  }
+
+  .home-copy {
+    padding-top: 2rem;
+  }
+
+  .section-heading {
+    margin-top: 3rem;
+    font-size: 1.6rem;
+  }
+
+  @media (max-width: 680px) {
+    .home-hero {
+      grid-template-columns: 1fr;
+      padding-top: 2rem;
+    }
+  }
+</style>

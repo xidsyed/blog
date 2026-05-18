@@ -1,0 +1,37 @@
+---
+title: 14. Longest Common Prefix
+date: 2022-08-29T00:00:00.000Z
+description: "Solution to the problem: 14. Longest Common Prefix"
+tags:
+  - dsadeck
+  - strings
+---
+
+## Problem Statement
+
+Pattern:
+
+---
+
+## Solution
+
+```java
+public String longestCommonPrefix(String[] strs) {
+	int limit = strs[0].length()-1; String prev = strs[0];
+	for (int i = 1 ; i < strs.length ; i++) {
+		int j = 0; String curr = strs[i];
+		while(j < prev.length() && j < curr.length() && j <= limit && prev.charAt(j) == curr.charAt(j)) j++;
+
+		limit = j-1;
+		prev = curr;
+	}
+	return strs[0].substring(0, limit+1);
+}
+```
+
+TC : $O(n)$
+SC : $O(1)$
+
+### Notes
+
+- elementary my dear shit head

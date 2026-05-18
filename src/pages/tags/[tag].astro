@@ -1,0 +1,52 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EntryList from "../../components/EntryList.astro";
+
+export async function getStaticPaths() {
+  const collections = await Promise.all([
+    getCollection("blog"),
+    getCollection("leetcode"),
+  ]);
+  const tags = new Set(collections.flat().flatMap((entry) => entry.data.tags));
+
+  return [...tags].map((tag) => ({
+    params: { tag },
+    props: { tag },
+  }));
+}
+
+const { tag } = Astro.props;
+const [blog, leetcode] = await Promise.all([
+  getCollection("blog"),
+  getCollection("leetcode"),
+]);
+const blogEntries = blog
+  .filter((entry) => entry.data.tags.includes(tag))
+  .sort((a, b) => Number(b.data.date ?? 0) - Number(a.data.date ?? 0));
+const leetcodeEntries = leetcode
+  .filter((entry) => entry.data.tags.includes(tag))
+  .sort((a, b) =>
+    a.data.title.localeCompare(b.data.title, undefined, { numeric: true }),
+  );
+---
+
+<BaseLayout title={`#${tag}`} description={`Entries tagged ${tag}.`}>
+  <h1 class="section-title">#{tag}</h1>
+  {
+    blogEntries.length > 0 && (
+      <section>
+        <h2>Blog</h2>
+        <EntryList entries={blogEntries} basePath="/blog" />
+      </section>
+    )
+  }
+  {
+    leetcodeEntries.length > 0 && (
+      <section>
+        <h2>LeetCode</h2>
+        <EntryList entries={leetcodeEntries} basePath="/leetcode" />
+      </section>
+    )
+  }
+</BaseLayout>

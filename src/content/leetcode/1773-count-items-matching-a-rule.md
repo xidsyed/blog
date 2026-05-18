@@ -1,0 +1,44 @@
+---
+title: 1773. Count Items Matching a Rule
+date: 2022-06-06T00:00:00.000Z
+description: "Solution to the problem: 1773. Count Items Matching a Rule"
+tags:
+  - dsadeck
+  - arrays
+---
+
+## Problem Statement
+
+Pattern:
+
+---
+
+## Solution
+
+```java
+public int countMatches (List<List<String>> items, String ruleKey, String ruleValue){
+	// available properties
+	String[] ruleKeys = {"type", "color", "name"};
+	// find RuleKeyNo.
+	int keyNo = 0;
+	for (int i = 0; i < ruleKeys.length; i++)
+		if(ruleKeys[i].equals(ruleKey)) {
+			keyNo = i;
+			break;
+		}
+
+	// Check which item satisfies the rulevalue
+	for (int itemNo = 0; itemNo < items.size(); itemNo++) {
+		List<String> item = items.get(itemNo);
+		if(item.get(keyNo).equals(ruleValue))
+			return itemNo;
+	}
+
+	// element not found
+	return -1;
+}
+```
+
+### Notes
+
+- Make sure to use `.equals()` and not `==`

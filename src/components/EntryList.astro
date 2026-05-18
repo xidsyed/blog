@@ -1,0 +1,133 @@
+---
+import { Image } from "astro:assets";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  entries: Array<CollectionEntry<"blog"> | CollectionEntry<"leetcode">>;
+  basePath: "/blog" | "/leetcode";
+}
+
+const { entries, basePath } = Astro.props;
+const formatter = new Intl.DateTimeFormat("en", {
+  month: "short",
+  day: "numeric",
+  year: "numeric",
+});
+---
+
+<div class="entry-grid">
+  {
+    entries.map((entry) => (
+      <article class="entry-card">
+        {entry.data.cover && (
+          <a
+            class="cover"
+            href={`${basePath}/${entry.id}/`}
+            aria-label={entry.data.title}
+          >
+            <Image
+              src={entry.data.cover}
+              alt={entry.data.coverAlt ?? ""}
+              widths={[360, 720]}
+              sizes="(max-width: 720px) 100vw, 320px"
+            />
+          </a>
+        )}
+        <div>
+          <p class="meta">
+            {entry.data.date ? formatter.format(entry.data.date) : "Undated"}
+          </p>
+          <h2>
+            <a href={`${basePath}/${entry.id}/`}>{entry.data.title}</a>
+          </h2>
+          {entry.data.description && <p>{entry.data.description}</p>}
+          {entry.data.tags.length > 0 && (
+            <ul class="tags" aria-label="Tags">
+              {entry.data.tags.slice(0, 4).map((tag) => (
+                <li>{tag}</li>
+              ))}
+            </ul>
+          )}
+        </div>
+      </article>
+    ))
+  }
+</div>
+
+<style>
+  .entry-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .entry-card {
+    display: grid;
+    grid-template-columns: minmax(0, 220px) minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .entry-card:first-child {
+    border-top: 0;
+  }
+
+  .cover {
+    display: block;
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    border-radius: 8px;
+    background: var(--code);
+  }
+
+  .cover :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .meta {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    margin: 0.1rem 0 0.35rem;
+    line-height: 1.2;
+  }
+
+  h2 a {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  p {
+    margin: 0;
+    color: var(--muted);
+  }
+
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    padding: 0;
+    margin: 0.75rem 0 0;
+    list-style: none;
+  }
+
+  .tags li {
+    padding: 0.15rem 0.45rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--muted);
+    font-size: 0.78rem;
+  }
+
+  @media (max-width: 680px) {
+    .entry-card {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
