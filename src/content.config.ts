@@ -10,6 +10,7 @@ const entrySchema = ({ image }: SchemaContext) =>
     tags: z.array(z.string()).default([]),
     cover: image().optional(),
     coverAlt: z.string().optional(),
+    hideCover: z.boolean().optional(),
   });
 
 const blog = defineCollection({

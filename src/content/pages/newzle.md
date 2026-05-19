@@ -35,7 +35,5 @@ AI is used in internal tools to assist _behind the scenes_ to sift through daily
 
 **Soon.**
 
-The first public version is planned for **the second week of January**.  
-More details (and access) coming shortly.
 
 Stay tuned.

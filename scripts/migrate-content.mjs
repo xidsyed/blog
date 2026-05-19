@@ -159,7 +159,7 @@ function publicAssetPath(sourceRel, target) {
     target,
     path.posix.dirname(toPosix(sourceRel)),
   );
-  return `/content/${normalizedTarget}`;
+  return `/media/${normalizedTarget}`;
 }
 
 function headingSlug(value) {
@@ -252,7 +252,7 @@ function normalizeData(data, sourceRel, outputRelPath) {
 
 async function copyAssets(files) {
   await fs.rm(assetRoot, { recursive: true, force: true });
-  await fs.rm(path.resolve("public", "content"), {
+  await fs.rm(path.resolve("public", "media"), {
     recursive: true,
     force: true,
   });
@@ -264,11 +264,16 @@ async function copyAssets(files) {
     if (path.basename(rel).endsWith(".bak")) continue;
 
     const dest = path.join(assetRoot, rel);
-    const publicDest = path.join("public", "content", rel);
+    const ext = path.extname(rel).toLowerCase();
+    const publicDest = path.join("public", "media", rel);
     await fs.mkdir(path.dirname(dest), { recursive: true });
-    await fs.mkdir(path.dirname(publicDest), { recursive: true });
     await fs.copyFile(file, dest);
-    await fs.copyFile(file, publicDest);
+
+    // Only non-image media files need direct public URLs for raw HTML embeds.
+    if (mediaExts.has(ext) && !imageExts.has(ext)) {
+      await fs.mkdir(path.dirname(publicDest), { recursive: true });
+      await fs.copyFile(file, publicDest);
+    }
   }
 }
 

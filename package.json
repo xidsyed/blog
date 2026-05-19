@@ -11,6 +11,7 @@
     "build": "astro build",
     "health": "bun run check && bun run lint && bun run format && bun run test",
     "check": "astro check && bun wrangler types --check",
+    "check:no-content-paths": "sh -c \"if rg -n '(src|href)=\\\"/content/|\\]\\(/content/' src/content; then echo 'Found forbidden absolute /content/ references'; exit 1; fi\"",
     "lint": "eslint .",
     "format": "prettier --write .",
     "deploy": "bun run build && wrangler deploy",

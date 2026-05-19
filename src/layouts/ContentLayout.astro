@@ -25,7 +25,7 @@ const formatter = new Intl.DateTimeFormat("en", {
     </p>
     <h1>{entry.data.title}</h1>
     {
-      entry.data.cover && (
+      entry.data.cover && !entry.data.hideCover && (
         <Image
           class="hero-image"
           src={entry.data.cover}
@@ -40,9 +40,24 @@ const formatter = new Intl.DateTimeFormat("en", {
 </BaseLayout>
 
 <style>
+  .prose > .kicker {
+    margin-bottom: 0.6rem;
+  }
+
+  .prose > h1 {
+    margin: 0 0 1.1rem;
+  }
+
   .hero-image {
     width: 100%;
-    margin: 1rem 0 1.5rem;
-    object-fit: cover;
+    height: clamp(220px, 42vh, 420px);
+    margin: 0 0 2rem;
+    object-fit: contain;
+    object-position: center;
+    background: var(--code);
+  }
+
+  .prose > :where(p, h2, h3, h4, ul, ol, pre, table, blockquote):first-of-type {
+    margin-top: 0;
   }
 </style>

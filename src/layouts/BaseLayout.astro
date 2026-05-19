@@ -160,7 +160,18 @@ const pageTitle = title ? `${title} | ${siteTitle}` : siteTitle;
     font-size: 1.04rem;
   }
 
+  .prose img,
+  .prose picture,
+  .prose video {
+    display: block;
+    margin-inline: auto;
+  }
+
   .prose pre {
+    width: min(100%, calc(980px - 2.4rem));
+    max-width: none;
+    margin-inline: 50%;
+    transform: translateX(-50%);
     overflow-x: auto;
     padding: 1rem;
     border-radius: 8px;

@@ -6,7 +6,7 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://sidequests.donothack8659.workers.dev/",
+  site: "https://blog.donothack8659.workers.dev/",
   integrations: [sitemap()],
   adapter: cloudflare({
     imageService: "compile",

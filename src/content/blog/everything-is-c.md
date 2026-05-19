@@ -2,6 +2,8 @@
 title: Everything is C
 date: 2025-01-10T00:00:00.000Z
 description: Just C all the way down
+cover: ../../assets/content/posts/attachments/c_logo.png
+coverAlt: C logo
 tags:
   - programming
 ---

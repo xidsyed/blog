@@ -1,3 +1,19 @@
+# Blog (Astro)
+
+## Content Asset Rules
+
+- Use `src/assets/content/**` as the source of truth for blog/page/leetcode images and attachments used in Markdown/frontmatter.
+- Do not add new `/content/**` URLs in `src/content/**`.
+- If a raw HTML media tag needs a direct URL (for example `<video>`), place that media in `public/media/**` and reference it as `/media/**`.
+
+Run this guardrail check before commit:
+
+```sh
+bun run check:no-content-paths
+```
+
+---
+
 # Astro Starter Kit: Minimal
 
 ```sh

@@ -1,10 +1,12 @@
 ---
-title: digital gardens
+title: Digital Gardens
 date: 2024-10-25T00:00:00.000Z
+cover: ../../assets/content/posts/attachments/digital-garden.jpg
+coverAlt: Digital garden illustration
 tags: []
 ---
 
-A refuge for the week and cowardly, a semblance of order and progress in their meaningless and chaotic lives.
+A refuge for the week and cowardly, a semblance of order and progress in their meaningless and ambition-less lives.
 
 I've come to be very bitter and cynical of productivity and minimalism concepts like [digital gardens](https://maggieappleton.com/garden-history) and their gurus with their iPads and aesthetic notion templates over the years.
 
