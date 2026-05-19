@@ -1,7 +1,7 @@
 # Quartz to Astro Migration Plan
 
 Source: `../acqcc`  
-Target: `../acqcc-astro`  
+Target: `../blog`  
 Package manager: Bun
 
 ## Checklist

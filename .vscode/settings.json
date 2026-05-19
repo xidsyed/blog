@@ -1,0 +1,21 @@
+{
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "pages",
+      "path": "[[workspace]]/src/content/pages"
+    },
+    {
+      "title": "blog",
+      "path": "[[workspace]]/src/content/blog"
+    },
+    {
+      "title": "leetcode",
+      "path": "[[workspace]]/src/content/leetcode"
+    },
+    {
+      "title": "peek",
+      "path": "[[workspace]]/src/content/pages/peek"
+    }
+  ],
+  "[markdown]": {}
+}

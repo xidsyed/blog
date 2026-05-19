@@ -2,8 +2,13 @@
 import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 
+import cloudflare from "@astrojs/cloudflare";
+
 // https://astro.build/config
 export default defineConfig({
-  site: "https://syedmohsin.blog",
+  site: "https://sidequests.donothack8659.workers.dev/",
   integrations: [sitemap()],
+  adapter: cloudflare({
+    imageService: "compile",
+  }),
 });
